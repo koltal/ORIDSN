@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  /* background: darkcyan; */
+  left: 0;
+  margin-top: 60px;
+  bottom: 10;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 100%;
+  z-index: 9;
+}
+.Close-Btn{
+  float: right;
+  padding-right: 50px;
+}
+.menuNav.showMenu {
+  width: 100%;
+  background: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Menu-Icon-Container a {
+  display: block;
+  padding: 15px 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  /* text-transform: uppercase; */
+  /* font-weight: bold; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* .menuNav li:first-child {
+  margin-top: 7rem;
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+
+
+
+body{
+  /* background-color: #EFF7FF; */
+  /* width: 100%; */
+}
+.Modal_Container{
+  /* background-color: red; */
+  width: 100%;
+}
+.Mobile-Links a{
+  padding-top: 24px;
+  text-decoration: none;
+}
+.Modal_Container a {
+  padding: 32px;
+}
+.Nuts-Logo{
+  padding-top: 12px;
+}
+.Header-Section{
+  /* background-color: #EFF7FF; */
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  /* background-color: aquamarine; */
+  /* color: white; */
+ /* background-color: white; */
+ position: fixed;
+ width: 100%;
+ top: 0px;
+ overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2,1fr)
+}
+.Nav-Logo{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 52px;
+  /* background-color: red; */
+
+}
+.Nav-Logo a{
+  text-decoration: none;
+  color: black;
+}
+.Nav-Logo h3 {
+  padding-top: 7px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+  /* color: blue; */
+  /* padding-left: 12px; */
+  font-weight: bolder;
+}
+.Nav-Items{
+  padding-top: 25px;
+  /* background-color: yellowgreen; */
+ 
+}
+.Nav-Items nav a {
+  padding: 20px;
+  color: black;
+  font-weight: light;
+  text-decoration: none;
+  pointer-events: stroke;
+  
+}
+.Nav-Items nav a:hover{
+  background-color: #d9ebfc;
+  color: black;
+  
+}
+.Nav-Items nav{
+  float: right;
+  
+ 
+}
+.Menu-Icon-Container{
+  opacity: 0.01;
+  display: hidden;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* phone view nav css */
+@media screen and (max-width: 550px){
+
+  /* .Header-Section{
+ background-color: white;
+ box-shadow: 0 0 9px 3px rgba(132, 131, 131, 0.2);
+
+  } */
+  .App {
+    font-size: 16px;
+    font-weight: 300;
+    /* line-height: 20px; */
+    /* text-align: justify; */
   }
-  to {
-    transform: rotate(360deg);
+  .Nav-Items nav{
+    display: none;
+    /* padding-top: 25px; */
+    /* background-color: yellowgreen; */
+   
+  }
+  .Nav-Logo{
+    
+    padding-left: 12px;
+    /* background-color: red; */
+  
+  }
+  .Menu-Icon-Container{
+    float: right;
+    opacity: 1;
+    padding-right: 15px;
+    font-size: 23px;
+  }
+  .Menu-Icon-Container Modal {
+    width: 100%;
+  }
+ .MenuIcon{
+  font-size: 40px;
+ }
+  .Home-display-pic{
+    padding: 24px;
+    width: auto;
+    height: 200px;
   }
 }
