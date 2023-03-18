@@ -8,35 +8,35 @@ function Slider() {
       details: "I'm Francissco Junior"
     },
     {
-      image: "https://cdn.britannica.com/s:800x450,c:crop/35/204435-138-2F2B745A/Time-lapse-hyper-lapse-Isle-Skye-Scotland.jpg",
+      image: "https://theimageconference.org/wp-content/uploads/2020/04/image_conference_sylvia_opening2-scaled.jpg",
       caption: "Scotland"
     },
     {
-      image: "https://static2.tripoto.com/media/filter/tst/img/735873/TripDocument/1537686560_1537686557954.jpg",
+      image: "https://library.medschl.cam.ac.uk/files/2019/07/photo-of-a-conference-1024x681.jpg",
       caption: "Darjeeling"
     },
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
+      image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9",
       caption: "San Francisco"
     },
     {
-      image: "https://i.natgeofe.com/n/f7732389-a045-402c-bf39-cb4eda39e786/scotland_travel_4x3.jpg",
+      image: "https://www.jou.ufl.edu/wp-content/uploads/2016/07/photo_504410-e1469717564175.jpg",
       caption: "Scotland"
     },
     {
-      image: "https://www.tusktravel.com/blog/wp-content/uploads/2020/07/Best-Time-to-Visit-Darjeeling-for-Honeymoon.jpg",
+      image: "https://everything-pr.com/wp-content/uploads/2015/10/PR-Conference.jpg",
       caption: "Darjeeling"
     },
     {
-      image: "https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx",
+      image: "https://s3.amazonaws.com/utep-uploads/wp-content/uploads/wsumba/2019/02/15101702/WSUMBA_316098269_WEB-E_1902_HeroImage.jpg",
       caption: "San Francisco"
     },
     {
-      image: "https://images.ctfassets.net/bth3mlrehms2/6Ypj2Qd3m3jQk6ygmpsNAM/61d2f8cb9f939beed918971b9bc59bcd/Scotland.jpg?w=750&h=422&fl=progressive&q=50&fm=jpg",
+      image: "https://www.mizlink-pakistan.com/images/Conferences.jpeg",
       caption: "Scotland"
     },
     {
-      image: "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/02/summer-7.jpg",
+      image: "https://www.ijarbas.com/wp-content/uploads/2020/03/CONFERENCE-IJARBAS-768x432.jpg",
       caption: "Darjeeling"
     }
   ];
