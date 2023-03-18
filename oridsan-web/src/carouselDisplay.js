@@ -3,8 +3,8 @@ import { Carousel } from 'react-carousel-minimal';
 function Slider() {
  const data = [
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1200px-GoldenGateBridge-001.jpg",
-      caption: "San Francisco",
+      image: "https://www.unicef.org.uk/babyfriendly/wp-content/uploads/sites/2/2018/03/2000x1000-Conference-2016.jpg",
+      caption: "Operation Research Institute for Decision Science  & Analytics  of Nigeria",
       details: "I'm Francissco Junior"
     },
     {
@@ -45,6 +45,10 @@ function Slider() {
     fontSize: '2em',
     fontWeight: 'bold',
   }
+  const detailsStyle = {
+    fontSize: '2em',
+    fontWeight: 'bold',
+  }
   // const slideNumberStyle = {
   //   fontSize: '20px',
   //   fontWeight: 'bold',
@@ -61,12 +65,13 @@ function Slider() {
             width="100%"
             height="643px"
             captionStyle={captionStyle}
+            details = {detailsStyle}
             // radius="10px"
             // slideNumber={true}
             // slideNumberStyle={slideNumberStyle}
-            captionPosition="bottom"
+            captionPosition="center"
             automatic={true}
-            // dots={true}
+            dots={true}
             pauseIconColor="white"
             pauseIconSize="40px"
             slideBackgroundColor="darkgrey"

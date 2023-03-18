@@ -120,8 +120,103 @@ body{
 }
 
 
+/* Home page css starts here for main body */
+
+/* presidential container css here */
+.President-Container{
+  background-color: whitesmoke;
+  /* padding: 20px;
+  height: 500px; */
+}
+.President-Container-Inner{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 auto;
+  width: 80%;
+}
+.President-Image-Holder{
+  background-color: white;
+  padding: 40px;
+}
+.President-Writeup-Holder{
+  background-color: white;
+  padding: 40px;
+}
+
+/* css upcoming events and activities here */
+.Events-Container{
+  /* background-color: rebeccapurple; */
+  margin: 0 auto;
+  width: 70%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  /* width: 70%;
+  height: 1000px; */
+}
+.Upcoming-Events-Header{
+  font-size: 23px;
+  text-align: center;
+  font-weight: bold;
+}
+/* .Events-Container-Outer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+} */
+.Events-Container-Inner{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 210px;
+  width: 500px;
+  /* position: absolute; */
+  border: 1px solid #ddd;
+}
+.Event-Date-Section{
+  border-right: 1px solid #ddd;
+  width: 75px;
+}
+.Event-Date-Section-Inner{
+  padding: 10px;
+  margin: 40px;
+  width: 99px;
+  height: 88px;
+  background-color: #2E7159;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+/* .Event-Date-Section-Inner h4{
+  font-weight: bolder;
+  font-size: larger;
+} */
+.Events-Title-Section{
+  /* background-color: red; */
+  /* padding: 40px; */
+}
+.Events-Title-Section-Inner{
+  text-decoration: underline;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.Events-Title-Section-Inner p{
+  font-weight: bold;
+}
+.Events-Title-Section-Inner1{
+  display: flex;
+  padding-top: 30px;
+ 
+}
+.Events-Title-Section-Inner1 p{
+  font-weight: light;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Time{
+  padding-left: 30px;
+  float: right;
+}
+
 /* phone view nav css */
-@media screen and (max-width: 550px){
+@media screen and (max-width: 650px){
 
   /* .Header-Section{
  background-color: white;
@@ -163,4 +258,34 @@ body{
     width: auto;
     height: 200px;
   }
+  /* .President-Container{
+    background-color: whitesmoke;
+    padding: 20px;
+    height: 1300px;
+  } */
+  .President-Container-Inner{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    width: 100%;
+    
+  }
+
+  .Events-Container{
+    /* background-color: rebeccapurple; */
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    /* height: 1000px; */
+  }
+  .Events-Container-Inner{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 210px;
+    width: 100%;
+    /* position: absolute; */
+    border: 1px solid #ddd;
+  }
+  
 }
