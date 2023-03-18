@@ -241,6 +241,42 @@ body{
   
 }
 
+
+/* Services What we do Css Begins here */
+.Headings-Services{
+  margin: 0 auto;
+  width: 20%;
+}
+.Services-Container{
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  /* background-color: blue; */
+  width: 90%;
+}
+.Services-Card-Container{
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: blue; */
+}
+.Services-Card-Container{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border: 1px solid #ddd;
+  padding: 20px;
+  /* background-color: red; */
+}
+.Services-Card img{
+  width: 100px;
+  height: 100px;
+}
+.What-we-do{
+  color: #2E7159;
+  font-weight: bold;
+  text-align: center;
+}
+
 /* phone view nav css */
 @media screen and (max-width: 650px){
 
@@ -366,6 +402,19 @@ body{
     text-align: center;
     font-size: small;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .Services-Container{
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    /* background-color: blue; */
+    width: 80%;
+  }
+  .Headings-Services{
+    margin: 0 auto;
+    width: 60%;
   }
   
 }

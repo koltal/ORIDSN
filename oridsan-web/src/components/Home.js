@@ -1,24 +1,11 @@
 import Slider from "../carouselDisplay";
 import president from "../images/president.jpg";
-
+import Services from "./services";
 
 
 const Home = () => {
 
-    const containerStyle = {
-      backgroundColor: 'whitesmoke',
-      padding: '20px',
-      height: '500px'
-
-    }
-
-    const innerContainerStyle = {
-      display: 'grid',
-      gridTemplateColumns: '1fr 2fr',
-      margin: '0 auto',
-      width: '80%',
-     
-    }
+    
     
     return ( 
         <div>
@@ -121,6 +108,8 @@ const Home = () => {
       <div className="View-All-Events-Link">
         <span className="All-events">View All Events & Activities</span>
       </div>
+      
+      <Services/>
              
             
         </div>
