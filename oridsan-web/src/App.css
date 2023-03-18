@@ -156,7 +156,7 @@ body{
 .Events-Container{
   /* background-color: rebeccapurple; */
   margin: 0 auto;
-  width: 70%;
+  width: 60%;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(2, 1fr);
@@ -177,6 +177,7 @@ body{
   grid-template-columns: 1fr 3fr;
   height: 210px;
   width: 500px;
+  background-color: azure;
   /* position: absolute; */
   border: 1px solid #ddd;
 }
@@ -222,6 +223,18 @@ body{
 .Time{
   padding-left: 30px;
   float: right;
+}
+.View-All-Events-Link{
+  margin: 0 auto;
+  width: 50%;
+  padding: 40px;
+}
+.All-events{
+  float: right;
+  text-decoration: underline;
+  color: blue;
+  font-weight: normal;
+  
 }
 
 /* phone view nav css */

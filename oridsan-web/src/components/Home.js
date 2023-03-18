@@ -115,6 +115,9 @@ const Home = () => {
 
         
       </div>
+      <div className="View-All-Events-Link">
+        <span className="All-events">View All Events & Activities</span>
+      </div>
              
             
         </div>
