@@ -207,6 +207,7 @@ body{
   text-decoration: underline;
   padding-top: 40px;
   padding-left: 40px;
+  bottom: 0px;
 }
 .Events-Title-Section-Inner p{
   font-weight: bold;
@@ -339,6 +340,19 @@ body{
     display: flex;
     padding-top: 1px;
    
+  }
+  .View-All-Events-Link{
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+  }
+  .All-events{
+    float: right;
+    text-decoration: underline;
+    color: blue;
+    font-size: small;
+    font-weight: normal;
+    
   }
   
 }
