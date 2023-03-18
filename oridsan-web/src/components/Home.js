@@ -1,5 +1,5 @@
 import Slider from "../carouselDisplay";
-import president from "../images/president.jpg";
+import president from "../images/president.jpeg";
 
 
 
