@@ -264,11 +264,11 @@ body{
     width: auto;
     height: 200px;
   }
-  /* .President-Container{
-    background-color: whitesmoke;
-    padding: 20px;
-    height: 1300px;
-  } */
+  .President-Container{
+    background-color: rgb(213, 168, 168);
+    /* padding: 20px;
+    height: 1300px; */
+  }
   .President-Container-Inner{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
