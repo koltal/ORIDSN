@@ -28,7 +28,7 @@ const Home = () => {
       <div className="President-Container">
         <div className="President-Container-Inner">
             <div className="President-Image-Holder">
-              <img src={president} width='474px' height='434px' alt=""/>
+              <img className="President-Image" src={president}  alt=""/>
              
              </div>
          <div className="President-Writeup-Holder">

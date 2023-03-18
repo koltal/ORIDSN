@@ -82,7 +82,7 @@ function Slider() {
               textAlign: "center",
               maxWidth: "100%",
               maxHeight: "50%",
-              marginTop: "80px",
+              marginTop: "70px",
             }}
           />
         </div>

@@ -125,6 +125,7 @@ body{
 /* presidential container css here */
 .President-Container{
   background-color: whitesmoke;
+  width: 100%;
   /* padding: 20px;
   height: 500px; */
 }
@@ -137,6 +138,11 @@ body{
 .President-Image-Holder{
   background-color: white;
   padding: 40px;
+ 
+}
+.President-Image{
+  width: 474px;
+  height: 434px;
 }
 .President-Writeup-Holder{
   background-color: white;
@@ -269,6 +275,17 @@ body{
     margin: 0 auto;
     width: 100%;
     
+  }
+  .President-Image-Holder{
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+   
+  }
+  .President-Image{
+    width: 334px;
+    height: 334px;
   }
 
   .Events-Container{
