@@ -2,6 +2,8 @@
 import { Link } from 'react-router-dom';
 // import Modal from 'react-modal';
 // import MenuIcon from '@mui/icons-material/Menu';
+// import DeleteIcon from '@mui/icons-material/Delete';
+
 // import MenuIcon from '@material-ui/core/Menu';
 // import CloseIcon from '@mui/icons-material/Close';
 import React, { useState } from "react"
@@ -63,8 +65,13 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                     </nav>
                     <div className='Menu-Icon-Container'>
                       {/* <span><MenuIcon onClick={handleToggle}>{navbarOpen ? "Close" : "Open"}</MenuIcon></span> */}
+                      <span><span onClick={handleToggle}>{navbarOpen ? "" : ""}=</span></span>
+                     
+
                       <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
                         {/* <span className='Close-Btn'><CloseIcon onClick={closeMenu}></CloseIcon></span> */}
+                         <span className='Close-Btn'>X<span onClick={closeMenu}></span></span>
+
                       <Link 
                         to=''
                         onClick={closeMenu}>Company</Link>
