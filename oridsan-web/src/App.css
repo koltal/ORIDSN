@@ -143,6 +143,9 @@ body{
   padding: 40px;
  
 }
+.Desk-Of-President1{
+  opacity: 0.01;
+}
 .President-Image{
   width: 474px;
   height: 434px;
@@ -353,6 +356,16 @@ body{
     font-size: small;
     font-weight: normal;
     
+  }
+  .Desk-Of-President{
+    display: none;
+    background-color: red;
+  }
+  .Desk-Of-President1{
+    opacity: 0.9;
+    text-align: center;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
 }

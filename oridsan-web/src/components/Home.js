@@ -1,5 +1,5 @@
 import Slider from "../carouselDisplay";
-import president from "../images/president.png";
+import president from "../images/president.jpg";
 
 
 
@@ -28,16 +28,19 @@ const Home = () => {
       <div className="President-Container">
         <div className="President-Container-Inner">
             <div className="President-Image-Holder">
+            <div className="Desk-Of-President1"><h2 >FROM THE PRESIDENT DESK</h2></div>
               <img className="President-Image" src={president}  alt=""/>
              
              </div>
          <div className="President-Writeup-Holder">
-            <div><h2>FROM THE PRESIDENT DESK</h2></div>
+            <div className="Desk-Of-President"><h2 >FROM THE PRESIDENT DESK</h2></div>
             <div>
               <p style={{
                 lineHeight: '30px',
                 textAlign: 'justify',
               }}>Nigeria Association of Computing Students (NACOS) is the umbrella body for students studying Computer Science, Computer Engineering, Information Systems, Cyber Security, Software Engineering, Telecommunications Engineering, and all IT-related courses in Nigeria and have been in existence for over two decades and NACOS can boast of its presence in almost all tertiary institutions in Nigeria (including privately owned ones).
+
+              With a membership strength of about Three hundred and fifty thousand (350,000) members in over two hundred and fifty (250) local chapters in different tertiary institutions (Universities, Polytechnics, and Colleges of Education) across the six (6) geo-political zones of the federation, thus making the association the largest and most organized student body in Africa.Nigeria Association of Computing Students (NACOS) is the umbrella body for students studying Computer Science, Computer Engineering, Information Systems, Cyber Security, Software Engineering, Telecommunications Engineering, and all IT-related courses in Nigeria and have been in existence for over two decades and NACOS can boast of its presence in almost all tertiary institutions in Nigeria (including privately owned ones).
 
               With a membership strength of about Three hundred and fifty thousand (350,000) members in over two hundred and fifty (250) local chapters in different tertiary institutions (Universities, Polytechnics, and Colleges of Education) across the six (6) geo-political zones of the federation, thus making the association the largest and most organized student body in Africa.</p>
             </div>
