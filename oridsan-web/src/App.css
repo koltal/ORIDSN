@@ -5,7 +5,7 @@
   top: 0;
   /* background: darkcyan; */
   left: 0;
-  margin-top: 60px;
+  margin-top: 0px;
   bottom: 10;
   height: 100vh;
   width: 0;
@@ -19,14 +19,17 @@
 }
 .menuNav.showMenu {
   width: 100%;
-  background: white;
+  background: #2E7159;
+  color: white;
 }
 
 .Menu-Icon-Container a {
   display: block;
   padding: 15px 15px;
   text-decoration: none;
-  color: black;
+  /* color: black; */
+  border-bottom: 1px solid #dddd;
+  color: white;
   font-size: 18px;
   /* text-transform: uppercase; */
   /* font-weight: bold; */

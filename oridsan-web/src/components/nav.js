@@ -74,9 +74,14 @@ const [navbarOpen, setNavbarOpen] = useState(false);
 
                       <Link 
                         to=''
-                        onClick={closeMenu}>Company</Link>
-                        <Link to='products' onClick={closeMenu}>Product</Link>
-                        <Link to='about' onClick={closeMenu}>About</Link>
+                        onClick={closeMenu}>Home</Link>
+                        <Link to='products' onClick={closeMenu}>About</Link>
+                        <Link to='about' onClick={closeMenu}>Affiliation</Link>
+                        <Link to='contact' onClick={closeMenu}>Chapters</Link>
+                        <Link to='contact' onClick={closeMenu}>Conferences</Link>
+                        <Link to='contact' onClick={closeMenu}>Training</Link>
+                        <Link to='contact' onClick={closeMenu}>Publications</Link>
+                        <Link to='contact' onClick={closeMenu}>News</Link>
                         <Link to='contact' onClick={closeMenu}>Contact</Link>
 
                       </ul>
