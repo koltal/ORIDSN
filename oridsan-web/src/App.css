@@ -437,7 +437,12 @@ body{
   }
   .Headings-Services{
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
+  }
+  .Services-Card img{
+    margin-top: 30px;
+    width: 70px;
+    height: 70px;
   }
   
   .Stastics-Count-section{
