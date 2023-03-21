@@ -277,6 +277,29 @@ body{
   text-align: center;
 }
 
+
+
+  /* we are Everywhere in Nigeria Container 
+  statistics css begins here*/
+.Statistics-Container{
+  background-color: whitesmoke;
+  height: 150px;
+  margin-top: 30px;
+  padding: 40px;
+}
+.Stastics-Count-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #d9f8ed;
+  height: 150px;
+  margin: 0 auto;
+  width: 60%;
+}
+.Stat-Members, .Stats-States{
+  background-color: #2E7159;
+}
+
+
 /* phone view nav css */
 @media screen and (max-width: 650px){
 

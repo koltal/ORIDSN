@@ -39,6 +39,24 @@ const Services = () => {
             </div>
             
         </div>
+
+
+        {/* we are Everywhere in Nigeria Container */}
+        <div className="Statistics-Container">
+            <div><center><h2>WE ARE EVERYWHERE IN NIGERIA</h2></center></div>
+            <div className="Stastics-Count-section">
+                <div className="Stat-Members">
+                    
+                    <div><h4>3400+ Members</h4></div>
+                </div>
+                <div className="Stats-Local-Chapters">
+                    <div><h4>250+ Local Chapters</h4></div>
+                </div>
+                <div className="Stats-States">
+                    <div><h4>36 states + FCT </h4></div>
+                </div>
+            </div>
+        </div>
         </div>
      );
 }
