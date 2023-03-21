@@ -299,9 +299,33 @@ body{
   background-color: #2E7159;
 }
 
+/* footer css starts here  */
+.Overall-Footer-Container{
+  background-color: black;
+  /* height: 400px; */
+  color: white;
+  margin-top: 60px;
+}
+.Footer-Container{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  width: 80%;
+  grid-gap: 40px;
+  padding-top: 100px;
+}
+.Footer-Container li {
+  padding: 12px;
+  list-style-type: none;
+  font-weight: lighter;
+}
+.Footer-Container li:hover{
+  font-weight: bolder;
+}
+
 
 /* phone view nav css */
-@media screen and (max-width: 650px){
+@media screen and (max-width: 850px){
 
   /* .Header-Section{
  background-color: white;
@@ -445,6 +469,7 @@ body{
     height: 70px;
   }
   
+  
   .Stastics-Count-section{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -452,5 +477,23 @@ body{
     height: 100px;
     margin: 0 auto;
     width: 90%;
+  }
+
+
+  .Overall-Footer-Container{
+    background-color: #2E7159;
+    /* height: 400px; */
+    color: white;
+    /* margin-top: 60px; */
+  }
+  .Footer-Container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 100px;
+  }
+  .Footer-Container li {
+    padding: 7px;
+    list-style-type: none;
+    font-weight: lighter;
   }
 }

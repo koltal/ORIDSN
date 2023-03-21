@@ -5,6 +5,7 @@ import Home from './components/Home';
 // import Footer from './components/footer';
 // import Products from './components/products';
 import Navbar from './components/nav';
+import Footer from './components/footer';
 import './App.css';
 // import Slider from './carouselDisplay';
 
@@ -26,7 +27,7 @@ function App() {
                 <Route path='/about' element={<AboutPage/>}/>
                 <Route path='/contact' element={<contactPage/>}/> */}
                 </Routes>
-             
+                <Footer/>
           </BrowserRouter>
     </div>
     // <Slider/>
