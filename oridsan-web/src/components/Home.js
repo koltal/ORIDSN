@@ -1,6 +1,7 @@
 import Slider from "../carouselDisplay";
 import president from "../images/president.jpg";
 import Services from "./services";
+import News from "./news";
 
 
 const Home = () => {
@@ -111,7 +112,7 @@ const Home = () => {
       
       <Services/>
              
-            
+        <News/>    
         </div>
      );
 }
