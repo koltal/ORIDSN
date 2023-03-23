@@ -1,4 +1,7 @@
 import folder from "../images/folder.png"
+import user from "../images/account.png";
+import locationIcon from "../images/Union.png";
+import chapterIcon from "../images/folder-active.png";
 
 const Services = () => {
     return ( 
@@ -46,14 +49,16 @@ const Services = () => {
             <div><center><h2>WE ARE EVERYWHERE IN NIGERIA</h2></center></div>
             <div className="Stastics-Count-section">
                 <div className="Stat-Members">
-                    
-                    <div><h4>3400+ Members</h4></div>
+                <center><div><img src={user} alt=""/></div> 
+                    <div><span>34,000 + </span><p>Members</p></div></center>
                 </div>
                 <div className="Stats-Local-Chapters">
-                    <div><h4>250+ Local Chapters</h4></div>
+                <center><div><img src={chapterIcon} alt=""/></div> 
+                    <div><span>250 + </span><p>Local Chapters</p></div></center>
                 </div>
                 <div className="Stats-States">
-                    <div><h4>36 states + FCT </h4></div>
+                <center><div><img src={locationIcon} alt=""/></div> 
+                    <div><span>36 + FCT </span></div><p>states </p></center>
                 </div>
             </div>
         </div>

@@ -63,7 +63,7 @@ function Slider() {
             data={data}
             time={5000}
             width="100%"
-            height="643px"
+            height="843px"
             captionStyle={captionStyle}
             details = {detailsStyle}
             // radius="10px"

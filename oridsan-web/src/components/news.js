@@ -1,5 +1,11 @@
-import President from '../images/president.jpg';
+
 const News = () => {
+    const data = [{
+        image:"https://ao-alliance.org/wp-content/uploads/2018/03/DSC00226-e1522395266863.jpg",
+        title:"ORIDSAN NEWS HEADLINES",
+        time:"time stamp",
+    }];
+
     return ( 
         <div className="News-Container">
             <div>
