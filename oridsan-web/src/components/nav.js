@@ -1,4 +1,7 @@
 // import React from 'react';
+import { CloseCircleOutlined, MenuOutlined } from '@ant-design/icons';
+
+
 import { Link } from 'react-router-dom';
 // import Modal from 'react-modal';
 // import MenuIcon from '@mui/icons-material/Menu';
@@ -65,12 +68,15 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                     </nav>
                     <div className='Menu-Icon-Container'>
                       {/* <span><MenuIcon onClick={handleToggle}>{navbarOpen ? "Close" : "Open"}</MenuIcon></span> */}
-                      <span><span onClick={handleToggle}>{navbarOpen ? "" : ""}=</span></span>
+                      {/* <MessageOutlined style={{ fontSize: '16px', color: '#08c' }} /> */}
+                      <MenuOutlined onClick={handleToggle} > {navbarOpen ? "" : ""} </MenuOutlined>
+                      {/* <span><span onClick={handleToggle}>{navbarOpen ? "" : ""}=</span></span> */}
                      
 
                       <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
                         {/* <span className='Close-Btn'><CloseIcon onClick={closeMenu}></CloseIcon></span> */}
-                         <span className='Close-Btn'>X<span onClick={closeMenu}></span></span>
+                         {/* <span className='Close-Btn'>X<span onClick={closeMenu}></span></span> */}
+                         <CloseCircleOutlined onClick={closeMenu}/>
 
                       <Link 
                         to=''

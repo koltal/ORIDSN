@@ -1,3 +1,4 @@
+import { ClockCircleOutlined, AimOutlined} from '@ant-design/icons';
 import Slider from "../carouselDisplay";
 import president from "../images/president.jpg";
 import Services from "./services";
@@ -61,8 +62,8 @@ const Home = () => {
                     <p>ORIDSAN-ASCEND STUDIOS FOUNDATION, CREATIVE TECHNOLOGY PROGRAM (CTP) 2022</p>
                   </div>
                   <div className="Events-Title-Section-Inner1">
-                   <div> <p >Venue: Mau Yola</p></div>
-                   <div> <p className="Time">Time: 8:00PM</p></div>
+                   <div> <p ><AimOutlined /> Mau Yola</p></div>
+                   <div> <p className="Time"><ClockCircleOutlined /> 8:00PM</p></div>
                   </div>
                 </div>
 

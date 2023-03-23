@@ -1,4 +1,4 @@
-
+import { ClockCircleOutlined, CalendarOutlined} from '@ant-design/icons';
 const News = () => {
     const data = [{
         image:"https://ao-alliance.org/wp-content/uploads/2018/03/DSC00226-e1522395266863.jpg",
@@ -19,9 +19,9 @@ const News = () => {
                     <div className="News-Title">
                         <p>ORIDSAN-ASCEND STUDIOS FOUNDATION, CREATIVE TECHNOLOGY PROGRAM (CTP) 2022</p>
                     </div>
-                    <div>
-                        <div><p>Time: 8:00PM</p></div>
-                        <div><p>Date 24th, January 2023</p></div>
+                    <div style={{display: 'flex'}}>
+                        <div><p><ClockCircleOutlined/> 8:00PM</p></div>
+                        <div style={{float: 'right', marginLeft:50}}><p><CalendarOutlined /> 24th, Jan 2023</p></div>
                     </div>
                 </div>
                 <div className="News-Card">
@@ -31,9 +31,9 @@ const News = () => {
                     <div className="News-Title">
                         <p>ORIDSAN-ASCEND STUDIOS FOUNDATION, CREATIVE TECHNOLOGY PROGRAM (CTP) 2022</p>
                     </div>
-                    <div>
-                        <div><p>Time: 8:00PM</p></div>
-                        <div><p>Date 24th, January 2023</p></div>
+                    <div style={{display: 'flex'}}>
+                        <div><p><ClockCircleOutlined/> 8:00PM</p></div>
+                        <div style={{float: 'right', marginLeft:50}}><p><CalendarOutlined /> 24th, Jan 2023</p></div>
                     </div>
                 </div>
                 <div className="News-Card">
@@ -43,9 +43,9 @@ const News = () => {
                     <div className="News-Title">
                         <p>ORIDSAN-ASCEND STUDIOS FOUNDATION, CREATIVE TECHNOLOGY PROGRAM (CTP) 2022</p>
                     </div>
-                    <div>
-                        <div><p>Time: 8:00PM</p></div>
-                        <div><p>Date 24th, January 2023</p></div>
+                    <div style={{display: 'flex'}}>
+                        <div><p><ClockCircleOutlined/> 8:00PM</p></div>
+                        <div style={{float: 'right', marginLeft:50}}><p><CalendarOutlined /> 24th, Jan 2023</p></div>
                     </div>
                 </div>
             </div>
