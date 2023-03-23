@@ -18,7 +18,7 @@ const Home = () => {
         <div className="President-Container-Inner">
             <div className="President-Image-Holder">
             <div className="Desk-Of-President1"><h2 >FROM THE PRESIDENT DESK</h2></div>
-              <img className="President-Image" src={president}  alt=""/>
+              <img className="President-Image" src="https://tse2.mm.bing.net/th?id=OIP.oxUGuGFdZkxzirRC7xstpgHaHI&pid=Api&P=0"  alt=""/>
              
              </div>
          <div className="President-Writeup-Holder">
@@ -52,18 +52,18 @@ const Home = () => {
 
                 <div className="Event-Date-Section">
                   <div className="Event-Date-Section-Inner">
-                    <div><h4>23</h4></div>
-                    <div><span>January</span></div>
+                    <div><h4>30</h4></div>
+                    <div><span>September</span></div>
                   </div>
                  
                 </div>
                 <div className="Events-Title-Section">
                   <div className="Events-Title-Section-Inner">
-                    <p>ORIDSAN-ASCEND STUDIOS FOUNDATION, CREATIVE TECHNOLOGY PROGRAM (CTP) 2022</p>
+                    <p>The Importance of Mathematical Modelling in the field of Operations & Research, case Study of Mau Yola</p>
                   </div>
                   <div className="Events-Title-Section-Inner1">
-                   <div> <p ><AimOutlined /> Mau Yola</p></div>
-                   <div> <p className="Time"><ClockCircleOutlined /> 8:00PM</p></div>
+                   <div> <p ><AimOutlined /> American University of Nigeria</p></div>
+                   <div> <p className="Time"><ClockCircleOutlined /> 10:00AM</p></div>
                   </div>
                 </div>
 
@@ -91,8 +91,8 @@ const Home = () => {
                     <p>ORIDSAN-ASCEND STUDIOS FOUNDATION, CREATIVE TECHNOLOGY PROGRAM (CTP) 2022</p>
                   </div>
                   <div className="Events-Title-Section-Inner1">
-                   <div> <p >Venue: Mau Yola</p></div>
-                   <div> <p className="Time">Time: 8:00PM</p></div>
+                  <div> <p ><AimOutlined /> Modibbo Adama University Yola.</p></div>
+                   <div> <p className="Time"><ClockCircleOutlined /> 8:00PM</p></div>
                   </div>
                 </div>
 
