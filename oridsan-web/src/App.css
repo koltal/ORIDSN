@@ -47,6 +47,7 @@
 body{
   /* background-color: #EFF7FF; */
   /* width: 100%; */
+  /* background-color: #E1E6F1; */
 }
 .Modal_Container{
   /* background-color: red; */
@@ -62,16 +63,18 @@ body{
 .Nuts-Logo{
   padding-top: 12px;
 }
+
 .Header-Section{
   /* background-color: #EFF7FF; */
   border-bottom: 1px solid #ddd;
   padding-bottom: 20px;
   /* background-color: aquamarine; */
   /* color: white; */
- /* background-color: white; */
+ background-color: white;
  /* position: fixed; */
+ /* margin-top: 600px; */
  width: 100%;
- top: 0px;
+ /* top: 0px; */
  overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2,1fr)
@@ -286,7 +289,7 @@ body{
 /* background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%); */
 
 
-  height: 150px;
+  height: 100px;
   margin-top: 30px;
   padding: 40px;
 }
@@ -303,18 +306,31 @@ body{
   background-color: #d9ebfc;
 }
 .Stastics-Count-section img{
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   padding: 10px;
   align-items: center;
 }
 .Stastics-Count-section span{
-  color: white;
+  /* color: white; */
   font-weight: bolder;
-  font-size: 38px;
+  font-size: 28px;
+  padding-left: 15px;
+  margin-top: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Count{
+  padding-top: 20px;
 }
 .Stat-Members, .Stats-States{
+  display: flex;
   background-color: #2E7159;
+  padding: 20px;
+  color: white;
+}
+.Stats-Local-Chapters{
+  display: flex;
+  color: black;
   padding: 20px;
 }
 
@@ -369,11 +385,11 @@ body{
 /* phone view nav css */
 @media screen and (max-width: 850px){
 
-  /* .Header-Section{
- background-color: white;
- box-shadow: 0 0 9px 3px rgba(132, 131, 131, 0.2);
+  .Header-Section{
+ position: static;
+ /* box-shadow: 0 0 9px 3px rgba(132, 131, 131, 0.2); */
 
-  } */
+  }
   .App {
     font-size: 16px;
     font-weight: 300;

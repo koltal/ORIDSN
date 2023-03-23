@@ -49,16 +49,16 @@ const Services = () => {
             <div><center><h2>WE ARE EVERYWHERE IN NIGERIA</h2></center></div>
             <div className="Stastics-Count-section">
                 <div className="Stat-Members">
-                <center><div><img src={user} alt=""/></div> 
-                    <div><span>34,000 + </span><p>Members</p></div></center>
+                <div><img src={user} alt=""/></div> 
+                    <div className="Count"><span>34,000 + </span><p>Members</p></div>
                 </div>
                 <div className="Stats-Local-Chapters">
-                <center><div><img src={chapterIcon} alt=""/></div> 
-                    <div><span>250 + </span><p>Local Chapters</p></div></center>
+               <div><img src={chapterIcon} alt=""/></div> 
+                    <div className="Count"><span>250 + </span><p>Local Chapters</p></div>
                 </div>
                 <div className="Stats-States">
-                <center><div><img src={locationIcon} alt=""/></div> 
-                    <div><span>36 + FCT </span></div><p>states </p></center>
+                <div><img src={locationIcon} alt=""/></div> 
+                    <div className="Count"><span>36 + FCT </span><p>states </p></div>
                 </div>
             </div>
         </div>
