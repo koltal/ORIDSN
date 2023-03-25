@@ -10,7 +10,7 @@ const About = () => {
         </div>
         <div className='my-about-container'>
           <AboutHistory/>
-          <AboutHistory/>
+          
         </div>
         </>
      );
