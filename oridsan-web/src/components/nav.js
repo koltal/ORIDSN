@@ -59,12 +59,13 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                         <Link to=''>Home</Link>
                         <Link to='products'>About</Link>
                         <Link to='about'>Affiliations</Link>
-                        <Link to='chapters'>Chapters</Link>
+                        {/* <Link to='chapters'>Chapters</Link> */}
                         <Link to='conferences'>Conferences</Link>
                         <Link to='about'>Training</Link>
                         <Link to='about'>Publications</Link>
                         <Link to='about'>News</Link>
                         <Link className='contact-btn' to='contact'>Contact</Link>
+                        <Link  to='https://operations-research-association.vercel.app/signup'><button className='signup-btn'>Sign Up</button></Link>
                     </nav>
                     <div className='Menu-Icon-Container'>
                       {/* <span><MenuIcon onClick={handleToggle}>{navbarOpen ? "Close" : "Open"}</MenuIcon></span> */}

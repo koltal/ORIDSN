@@ -85,6 +85,13 @@ body{
   /* background-color: red; */
 
 }
+.signup-btn{
+  background-color: #2E7159;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+}
 .Nav-Logo a{
   text-decoration: none;
   color: black;
@@ -105,14 +112,16 @@ body{
 .Nav-Items nav a {
   padding: 20px;
   color: black;
-  font-weight: light;
+  font-weight: bold;
   text-decoration: none;
   pointer-events: stroke;
   
 }
 .Nav-Items nav a:hover{
-  background-color: #d9ebfc;
-  color: black;
+  border-bottom: 5px solid #2E7159;
+  /* background-color: #2E7159; */
+  border-radius: 3px;
+  color: #2E7159;
   
 }
 .Nav-Items nav{
