@@ -11,6 +11,9 @@
     font-size: 40px;
     color: #2E7159;
 }
+.History-Container{
+    padding: 10px;
+}
 .text{
     display: inline;
     width: 100%;
@@ -19,4 +22,5 @@
   .read-or-hide{
     color: rgb(15, 23, 128);
     cursor: pointer;
+    font-weight: bolder;
   }
