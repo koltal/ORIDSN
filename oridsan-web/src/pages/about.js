@@ -1,6 +1,7 @@
 import './About.css';
 import './about-history';
 import AboutHistory from './about-history';
+import NationalTeam from '../components/National-team';
 const About = () => {
     return ( 
         <>
@@ -10,7 +11,7 @@ const About = () => {
         </div>
         <div className='my-about-container'>
           <AboutHistory/>
-          
+          <NationalTeam/>
         </div>
         </>
      );
