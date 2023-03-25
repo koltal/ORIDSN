@@ -75,7 +75,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
 
                       <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
                        
-                         <CloseCircleOutlined onClick={closeMenu}/>
+                         <CloseCircleOutlined className='Close-Btn' onClick={closeMenu}/>
 
                       <Link 
                         to=''
@@ -88,6 +88,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                         <Link to='contact' onClick={closeMenu}>Publications</Link>
                         <Link to='contact' onClick={closeMenu}>News</Link>
                         <Link to='contact' onClick={closeMenu}>Contact</Link>
+                        <Link  to='https://operations-research-association.vercel.app/signup'><button className='signup-btn'>Sign Up</button></Link>
 
                       </ul>
                       
