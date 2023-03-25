@@ -47,7 +47,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                <div className='Header-Section'>
                 <div className='Nav-Logo'>
                 <img src={logo} className='Nuts-Logo' alt="" srcset=""width='160px' height='33px' />
-                    {/* <Link to='/'>  <h3>Nutscoders</h3></Link> */}
+                  
                   
                    
                         
@@ -55,11 +55,11 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                 </div>
                 <div className='Nav-Items'>
                     <nav>
-                        {/* <Link to=''>Home</Link> */}
+                       
                         <Link to=''>Home</Link>
                         <Link to='about'>About</Link>
                         <Link to='about'>Affiliations</Link>
-                        {/* <Link to='chapters'>Chapters</Link> */}
+                       
                         <Link to='conferences'>Conferences</Link>
                         <Link to='about'>Training</Link>
                         <Link to='about'>Publications</Link>
@@ -68,15 +68,13 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                         <Link  to='https://operations-research-association.vercel.app/signup'><button className='signup-btn'>Sign Up</button></Link>
                     </nav>
                     <div className='Menu-Icon-Container'>
-                      {/* <span><MenuIcon onClick={handleToggle}>{navbarOpen ? "Close" : "Open"}</MenuIcon></span> */}
-                      {/* <MessageOutlined style={{ fontSize: '16px', color: '#08c' }} /> */}
+                     
                       <MenuOutlined onClick={handleToggle} > {navbarOpen ? "" : ""} </MenuOutlined>
-                      {/* <span><span onClick={handleToggle}>{navbarOpen ? "" : ""}=</span></span> */}
+                      
                      
 
                       <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-                        {/* <span className='Close-Btn'><CloseIcon onClick={closeMenu}></CloseIcon></span> */}
-                         {/* <span className='Close-Btn'>X<span onClick={closeMenu}></span></span> */}
+                       
                          <CloseCircleOutlined onClick={closeMenu}/>
 
                       <Link 
@@ -96,9 +94,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
               
                     </div>
                 </div>
-                <div id='main'>
                
-              </div>
                 </div>
                 
       
