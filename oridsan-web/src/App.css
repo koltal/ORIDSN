@@ -74,6 +74,8 @@ body{
  /* position: fixed; */
  /* margin-top: 600px; */
  width: 100%;
+ margin-bottom: 0px;
+ margin-top: 0px;
  /* top: 0px; */
  overflow: hidden;
   display: grid;
@@ -148,7 +150,7 @@ body{
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
 }
 .President-Image-Holder{
   background-color: white;

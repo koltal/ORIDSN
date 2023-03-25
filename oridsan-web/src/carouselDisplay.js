@@ -4,12 +4,12 @@ function Slider() {
  const data = [
     {
       image: "https://www.unicef.org.uk/babyfriendly/wp-content/uploads/sites/2/2018/03/2000x1000-Conference-2016.jpg",
-      caption: "Operation Research Institute for Decision Science  & Analytics  of Nigeria",
+      caption: "Operations Research Institute for Decision Sciences  & Analytics  of Nigeria",
       details: "I'm Francissco Junior"
     },
     {
       image: "https://theimageconference.org/wp-content/uploads/2020/04/image_conference_sylvia_opening2-scaled.jpg",
-      caption: "Scotland"
+      caption: "The Science of Better Decision Making and Analytics"
     },
     {
       image: "https://library.medschl.cam.ac.uk/files/2019/07/photo-of-a-conference-1024x681.jpg",

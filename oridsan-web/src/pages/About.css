@@ -1,0 +1,22 @@
+.About-Section-Container{
+    /* background-color: black;
+    color: white; */
+    text-align: center;
+    /* height: 200px; */
+    /* width: 100%; */
+    top: 0;
+}
+.About-Section-Container h2 {
+    /* padding-top: 100px; */
+    font-size: 40px;
+    color: #2E7159;
+}
+.text{
+    display: inline;
+    width: 100%;
+  }
+    
+  .read-or-hide{
+    color: rgb(15, 23, 128);
+    cursor: pointer;
+  }

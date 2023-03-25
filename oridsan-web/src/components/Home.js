@@ -26,7 +26,8 @@ const Home = () => {
             <div>
               <p style={{
                 lineHeight: '30px',
-                textAlign: 'justify',
+                textAlign: 'center',
+                fontFamily: '"Rubik", sans-serif'
               }}>Nigeria Association of Computing Students (NACOS) is the umbrella body for students studying Computer Science, Computer Engineering, Information Systems, Cyber Security, Software Engineering, Telecommunications Engineering, and all IT-related courses in Nigeria and have been in existence for over two decades and NACOS can boast of its presence in almost all tertiary institutions in Nigeria (including privately owned ones).
 
               With a membership strength of about Three hundred and fifty thousand (350,000) members in over two hundred and fifty (250) local chapters in different tertiary institutions (Universities, Polytechnics, and Colleges of Education) across the six (6) geo-political zones of the federation, thus making the association the largest and most organized student body in Africa.Nigeria Association of Computing Students (NACOS) is the umbrella body for students studying Computer Science, Computer Engineering, Information Systems, Cyber Security, Software Engineering, Telecommunications Engineering, and all IT-related courses in Nigeria and have been in existence for over two decades and NACOS can boast of its presence in almost all tertiary institutions in Nigeria (including privately owned ones).
@@ -34,7 +35,7 @@ const Home = () => {
               With a membership strength of about Three hundred and fifty thousand (350,000) members in over two hundred and fifty (250) local chapters in different tertiary institutions (Universities, Polytechnics, and Colleges of Education) across the six (6) geo-political zones of the federation, thus making the association the largest and most organized student body in Africa.</p>
             </div>
             <div>
-              <h3>Dr U M Modibbo</h3><br/>
+              <h3>Dr Umar Muhammad Modibbo </h3><br/>
               <span>President</span>
             </div>
          </div>
@@ -53,7 +54,7 @@ const Home = () => {
                 <div className="Event-Date-Section">
                   <div className="Event-Date-Section-Inner">
                     <div><h4>30</h4></div>
-                    <div><span>September</span></div>
+                    <div><span>Sept</span></div>
                   </div>
                  
                 </div>

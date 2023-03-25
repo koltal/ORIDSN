@@ -1,8 +1,8 @@
 // import React from 'react';
 import { CloseCircleOutlined, MenuOutlined } from '@ant-design/icons';
+import About from '../pages/about';
 
-
-import { Link } from 'react-router-dom';
+import { Link, } from 'react-router-dom';
 // import Modal from 'react-modal';
 // import MenuIcon from '@mui/icons-material/Menu';
 // import DeleteIcon from '@mui/icons-material/Delete';
@@ -57,7 +57,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                     <nav>
                         {/* <Link to=''>Home</Link> */}
                         <Link to=''>Home</Link>
-                        <Link to='products'>About</Link>
+                        <Link to='about'>About</Link>
                         <Link to='about'>Affiliations</Link>
                         {/* <Link to='chapters'>Chapters</Link> */}
                         <Link to='conferences'>Conferences</Link>
@@ -82,7 +82,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                       <Link 
                         to=''
                         onClick={closeMenu}>Home</Link>
-                        <Link to='products' onClick={closeMenu}>About</Link>
+                        <Link to='about' onClick={closeMenu}>About</Link>
                         <Link to='about' onClick={closeMenu}>Affiliation</Link>
                         <Link to='contact' onClick={closeMenu}>Chapters</Link>
                         <Link to='contact' onClick={closeMenu}>Conferences</Link>
