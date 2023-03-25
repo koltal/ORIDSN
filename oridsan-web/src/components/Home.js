@@ -1,6 +1,6 @@
 import { ClockCircleOutlined, AimOutlined} from '@ant-design/icons';
 import Slider from "../carouselDisplay";
-import president from "../images/president.jpg";
+import president from "../images/president.jpeg";
 import Services from "./services";
 import News from "./news";
 
@@ -18,7 +18,7 @@ const Home = () => {
         <div className="President-Container-Inner">
             <div className="President-Image-Holder">
             <div className="Desk-Of-President1"><h2 >FROM THE PRESIDENT DESK</h2></div>
-              <img className="President-Image" src="https://tse2.mm.bing.net/th?id=OIP.oxUGuGFdZkxzirRC7xstpgHaHI&pid=Api&P=0"  alt=""/>
+              <img className="President-Image" src={president}  alt=""/>
              
              </div>
          <div className="President-Writeup-Holder">
