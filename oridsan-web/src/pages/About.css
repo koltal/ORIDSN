@@ -96,6 +96,37 @@
     color: #2E7159;
   }
 
+/* 
+  contact us css starts here  */
+  .Contact-Us-Container{
+    margin: 0 auto;
+    width: 80%;
+    /* background-color: #2E7159; */
+    /* height: 900px; */
+    /* padding: 20px; */
+  }
+  .contact-section-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  .contact-section-container span{
+    padding: 10px;
+  }
+  .contact-section-container h3{
+    color: #2E7159;
+  }
+  .Icon-Sizer{
+      font-size: 44px;
+      color: white;
+      padding: 10px;
+     
+      background-color: #2E7159;
+      border-radius: 10px;
+ 
+  }
+
   /* phone view css starts here */
   @media screen and (max-width: 850px){
    
@@ -139,5 +170,10 @@
         width: 80%;
         grid-gap: 20px;
       }
-    
+      .contact-section-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        padding: 20px;
+      }
   }

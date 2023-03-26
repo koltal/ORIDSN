@@ -9,6 +9,7 @@ import Navbar from './components/nav';
 import Footer from './components/footer';
 import './App.css';
 import Conference from './pages/conference';
+import Contact from './pages/contact';
 // import Slider from './carouselDisplay';
 
 
@@ -27,6 +28,7 @@ function App() {
                 <Route path='/' element={<Home/>}/>
                 <Route path='/about' element={<About/>}/>
                 <Route path='/conference' element={<Conference/>}/>
+                <Route path='/contact' element={<Contact/>}/>
                 {/* <Route path='/products' element={<Products/>}/>
                 <Route path='/about' element={<AboutPage/>}/>
                 <Route path='/contact' element={<contactPage/>}/> */}
