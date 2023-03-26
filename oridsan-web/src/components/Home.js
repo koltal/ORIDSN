@@ -82,18 +82,18 @@ const Home = () => {
 
                 <div className="Event-Date-Section">
                   <div className="Event-Date-Section-Inner">
-                    <div><h4>23</h4></div>
-                    <div><span>January</span></div>
+                    <div><h4>10</h4></div>
+                    <div><span>July</span></div>
                   </div>
                  
                 </div>
                 <div className="Events-Title-Section">
                   <div className="Events-Title-Section-Inner">
-                    <p>ORIDSAN-ASCEND STUDIOS FOUNDATION, CREATIVE TECHNOLOGY PROGRAM (CTP) 2022</p>
+                    <p>IFORS 2023 23rd IFORS Triennial Conference Santiago, Chile, July 10 - 14, 2023</p>
                   </div>
                   <div className="Events-Title-Section-Inner1">
-                  <div> <p ><AimOutlined /> Modibbo Adama University Yola.</p></div>
-                   <div> <p className="Time"><ClockCircleOutlined /> 8:00PM</p></div>
+                  <div> <p ><AimOutlined /> Santiago, Chile.</p></div>
+                   <div> <p className="Time"><ClockCircleOutlined /> 8:00AM</p></div>
                   </div>
                 </div>
 

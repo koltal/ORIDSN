@@ -4,7 +4,7 @@ function Slider() {
  const data = [
     {
       image: "https://www.unicef.org.uk/babyfriendly/wp-content/uploads/sites/2/2018/03/2000x1000-Conference-2016.jpg",
-      caption: "Operations Research Institute for Decision Sciences  & Analytics  of Nigeria",
+      caption: `IFORS 2023 23rd IFORS Triennial Conference Santiago, Chile, July 10 - 14, 2023`,
       details: "I'm Francissco Junior"
     },
     {
