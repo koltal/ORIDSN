@@ -8,6 +8,7 @@ import About from './pages/about';
 import Navbar from './components/nav';
 import Footer from './components/footer';
 import './App.css';
+import Conference from './pages/conference';
 // import Slider from './carouselDisplay';
 
 
@@ -25,6 +26,7 @@ function App() {
                 <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/about' element={<About/>}/>
+                <Route path='/conference' element={<Conference/>}/>
                 {/* <Route path='/products' element={<Products/>}/>
                 <Route path='/about' element={<AboutPage/>}/>
                 <Route path='/contact' element={<contactPage/>}/> */}
