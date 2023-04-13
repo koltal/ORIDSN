@@ -26,17 +26,14 @@ const Home = () => {
             <div>
               <p style={{
                 lineHeight: '30px',
-                textAlign: 'center',
+                textAlign: 'justify',
                 fontFamily: '"Rubik", sans-serif'
-              }}>Nigeria Association of Computing Students (NACOS) is the umbrella body for students studying Computer Science, Computer Engineering, Information Systems, Cyber Security, Software Engineering, Telecommunications Engineering, and all IT-related courses in Nigeria and have been in existence for over two decades and NACOS can boast of its presence in almost all tertiary institutions in Nigeria (including privately owned ones).
-
-              With a membership strength of about Three hundred and fifty thousand (350,000) members in over two hundred and fifty (250) local chapters in different tertiary institutions (Universities, Polytechnics, and Colleges of Education) across the six (6) geo-political zones of the federation, thus making the association the largest and most organized student body in Africa.Nigeria Association of Computing Students (NACOS) is the umbrella body for students studying Computer Science, Computer Engineering, Information Systems, Cyber Security, Software Engineering, Telecommunications Engineering, and all IT-related courses in Nigeria and have been in existence for over two decades and NACOS can boast of its presence in almost all tertiary institutions in Nigeria (including privately owned ones).
-
-              With a membership strength of about Three hundred and fifty thousand (350,000) members in over two hundred and fifty (250) local chapters in different tertiary institutions (Universities, Polytechnics, and Colleges of Education) across the six (6) geo-political zones of the federation, thus making the association the largest and most organized student body in Africa.</p>
+              }}>Operations Research Institute for Decision Sciences and Analytics of Nigeria (ORIDSAN) is a professional body and an interdisciplinary institute that welcomes students, practitioners, researchers and policymakers in Nigeria and worldwide. The ORIDSAN draw her membership from the practitioners, researchers and students in Operations Research, Decision Sciences and Analytics, Management Sciences, Mathematics, Statistics, Computer Sciences, Computational and Cognitive Sciences,  and Industrial Engineering, among others. It has local chapters in different tertiary institutions (Universities, Polytechnics, and Colleges of Education) in Nigeria and working towards covering the six (6) geo-political zones of the federation, thus making the Institute the largest and most organized professional body in Nigeria. Any registered Member of ORIDSAN will have an additional membership opportunity with the African Federation of Operations Research Societies (AFROS) and the International Federation of Operations Research Societies (IFORS). The ORIDSAN is mandated to interact and develop the profession into a career path and advance its practices, methods and applications for improved systems performance in Nigeria. The Institute would provide specialized training on the general nature of operations Research as a scientific approach to problem-solving and decision-making, Statistical analysis, and Data analytics from time to time as Faculty development programs at a discounted rate for members. Members also will enjoy discount rates for physical and virtual Conferences, Workshops, Webinars, etc. </p>
             </div>
             <div>
-              <h3>Dr Umar Muhammad Modibbo </h3><br/>
-              <span>President</span>
+              <h3>Dr Umar Muhammad Modibbo <br></br>
+              <span>President</span> </h3><br/>
+             
             </div>
          </div>
         </div>
