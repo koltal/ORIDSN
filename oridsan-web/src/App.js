@@ -12,6 +12,7 @@ import Conference from './pages/conference';
 import Contact from './pages/contact';
 import Membership from './pages/membership';
 import Publication from './pages/publication';
+import Affiliation from './pages/affiliation';
 // import Slider from './carouselDisplay';
 
 
@@ -33,6 +34,7 @@ function App() {
                 <Route path='/publication' element={<Publication/>}/>
                 <Route path='/conference' element={<Conference/>}/>
                 <Route path='/contact' element={<Contact/>}/>
+                <Route path='/affiliation' element={<Affiliation/>}/>
                 {/* <Route path='/products' element={<Products/>}/>
                 <Route path='/about' element={<AboutPage/>}/>
                 <Route path='/contact' element={<contactPage/>}/> */}

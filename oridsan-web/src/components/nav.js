@@ -58,7 +58,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                        
                         <Link to=''>Home</Link>
                         <Link to='about'>About</Link>
-                        <Link to='about'>Affiliations</Link>
+                        <Link to='affiliation'>Affiliations</Link>
                        
                         <Link to='conference'>Conferences</Link>
                         <Link to='membership'>Membership</Link>
@@ -81,7 +81,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                         to=''
                         onClick={closeMenu}>Home</Link>
                         <Link to='about' onClick={closeMenu}>About</Link>
-                        <Link to='about' onClick={closeMenu}>Affiliation</Link>
+                        <Link to='affiliation' onClick={closeMenu}>Affiliation</Link>
                         <Link to='contact' onClick={closeMenu}>Chapters</Link>
                         <Link to='conference' onClick={closeMenu}>Conferences</Link>
                         <Link to='membership' onClick={closeMenu}>Membership</Link>
