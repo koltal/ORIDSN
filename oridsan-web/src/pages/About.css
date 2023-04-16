@@ -127,6 +127,16 @@
  
   }
 
+  /* Membership page css starts here */
+  .Membership-Container{
+    margin: 0 auto;
+    width: 50%;
+    
+  }
+  .Membership-Container h2{
+    color: #2E7159;
+  }
+
   /* phone view css starts here */
   @media screen and (max-width: 850px){
    
@@ -175,5 +185,10 @@
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 20px;
         padding: 20px;
+      }
+      .Membership-Container{
+        margin: 0 auto;
+        width: 90%;
+        
       }
   }

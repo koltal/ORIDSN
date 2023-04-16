@@ -10,6 +10,7 @@ import Footer from './components/footer';
 import './App.css';
 import Conference from './pages/conference';
 import Contact from './pages/contact';
+import Membership from './pages/membership';
 // import Slider from './carouselDisplay';
 
 
@@ -27,6 +28,7 @@ function App() {
                 <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/about' element={<About/>}/>
+                <Route path='/membership' element={<Membership/>}/>
                 <Route path='/conference' element={<Conference/>}/>
                 <Route path='/contact' element={<Contact/>}/>
                 {/* <Route path='/products' element={<Products/>}/>

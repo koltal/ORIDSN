@@ -11,8 +11,7 @@ const Footer = () => {
                     <div><h3>ORIDSAN NATIONAL</h3></div>
                     <div>
                         <p>ORIDSAN Nigeria</p>
-                        <p>No. 59 Target Junction, Muhammad Mustapha
-                            Way Jimeta Yola North, Adamawa State, Nigeria.
+                        <p>Address: No. 21A, Ifokanbale Community, Lamodi, OFFA. Kwara State Nigeria
                         </p>
                         <p>Give us a call on <strong>+2348140409672</strong></p>
                     </div>
@@ -41,7 +40,7 @@ const Footer = () => {
                         <div>
                             <li>News</li>
                             <li>Publications</li>
-                            <li>Training</li>
+                            <li>Membership</li>
                            
                         </div>
                     </div>
