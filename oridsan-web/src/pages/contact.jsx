@@ -24,7 +24,7 @@ const Contact = () => {
                 <div>
                     <AimOutlined className='Icon-Sizer'/><br></br>
                     <span>Visit our Office</span>
-                    <h3>Mau Yola</h3>
+                    <h3>No. 21A, Ifokanbale Community, Lamodi, OFFA. Kwara State, Nigeria</h3>
                 </div>
 
             </div>

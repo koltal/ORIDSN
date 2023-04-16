@@ -137,6 +137,22 @@
     color: #2E7159;
   }
 
+  /* Publications starts here */
+  .Publication-Container{
+    display: grid;
+    margin: 0 auto;
+    width: 70%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    margin-top: 30px;
+  }
+  .Publication-Container h1{
+    color: #2E7159;
+  }
+  .Publication-Container p{
+    line-height: 30px;
+  }
+
   /* phone view css starts here */
   @media screen and (max-width: 850px){
    
@@ -190,5 +206,13 @@
         margin: 0 auto;
         width: 90%;
         
+      }
+      .Publication-Container{
+        display: grid;
+        margin: 0 auto;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        margin-top: 30px;
       }
   }

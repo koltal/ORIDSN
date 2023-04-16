@@ -62,7 +62,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                        
                         <Link to='conference'>Conferences</Link>
                         <Link to='membership'>Membership</Link>
-                        <Link to='about'>Publications</Link>
+                        <Link to='publication'>Publications</Link>
                         <Link to='about'>News</Link>
                         <Link className='contact-btn' to='contact'>Contact</Link>
                         <Link  to='https://operations-research-association.vercel.app/signup'><button className='signup-btn'>Sign Up</button></Link>
@@ -85,7 +85,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                         <Link to='contact' onClick={closeMenu}>Chapters</Link>
                         <Link to='conference' onClick={closeMenu}>Conferences</Link>
                         <Link to='membership' onClick={closeMenu}>Membership</Link>
-                        <Link to='contact' onClick={closeMenu}>Publications</Link>
+                        <Link to='publication' onClick={closeMenu}>Publications</Link>
                         <Link to='contact' onClick={closeMenu}>News</Link>
                         <Link to='contact' onClick={closeMenu}>Contact</Link>
                         <Link  to='https://operations-research-association-demo.vercel.app/'><button className='signup-btn'>Sign Up</button></Link>
