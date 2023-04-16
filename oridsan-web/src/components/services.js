@@ -2,6 +2,9 @@ import folder from "../images/folder.png"
 import user from "../images/account.png";
 import locationIcon from "../images/Union.png";
 import chapterIcon from "../images/folder-active.png";
+import training from '../images/training.png';
+import award from '../images/award.png';
+import seminar from '../images/seminar.png';
 
 const Services = () => {
     return ( 
@@ -14,7 +17,7 @@ const Services = () => {
            
             <div className="Services-Card-Container">
                 <div className="Services-Card">
-                   <div><img src={folder} alt=""/></div> 
+                   <div><img src={seminar} alt=""/></div> 
                 </div>
                 <div>
                     <div><h4>Seminars/Bootcamps</h4></div>
@@ -24,19 +27,19 @@ const Services = () => {
 
             <div className="Services-Card-Container">
                 <div className="Services-Card">
-                   <div><img src={folder} alt=""/></div> 
+                   <div><img src={training} alt=""/></div> 
                 </div>
                 <div>
-                    <div><h4>Seminars/Bootcamps</h4></div>
+                    <div><h4>Trainings</h4></div>
                     <div><p>We organise seminars on practical and theoritcal aspects of computing.</p></div>
                 </div>
             </div>
             <div className="Services-Card-Container">
                 <div className="Services-Card">
-                   <div><img src={folder} alt=""/></div> 
+                   <div><img src={award} alt=""/></div> 
                 </div>
                 <div>
-                    <div><h4>Seminars/Bootcamps</h4></div>
+                    <div><h4>Awards</h4></div>
                     <div><p>We organise seminars on practical and theoritcal aspects of computing.</p></div>
                 </div>
             </div>
