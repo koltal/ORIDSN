@@ -153,6 +153,16 @@
     line-height: 30px;
   }
 
+  /* affilaiation pages css starts here */
+  .Affiliation-Container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    margin-top: 50px;
+    grid-gap: 50px;
+    width: 80%;
+  }
+
   /* phone view css starts here */
   @media screen and (max-width: 850px){
    
@@ -214,5 +224,13 @@
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 20px;
         margin-top: 30px;
+      }
+      .Affiliation-Container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        margin-top: 50px;
+        grid-gap: 50px;
+        width: 90%;
       }
   }
