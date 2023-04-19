@@ -1,36 +1,19 @@
-// import React from 'react';
 import { CloseCircleOutlined, MenuOutlined } from '@ant-design/icons';
-import About from '../pages/about';
-
 import { Link, } from 'react-router-dom';
-// import Modal from 'react-modal';
-// import MenuIcon from '@mui/icons-material/Menu';
-// import DeleteIcon from '@mui/icons-material/Delete';
-
-// import MenuIcon from '@material-ui/core/Menu';
-// import CloseIcon from '@mui/icons-material/Close';
 import React, { useState } from "react"
-// import logo1 from './NewLogo.png';
 import logo from '../images/logo.png';
 
 
-// const customStyles = {
-//     content: {
-//       top: '45%',
-      
-//       left: '50%',
-//       right: 'auto',
-//       bottom: 'auto',
-//       marginRight: '-150%',
-//       transform: 'translate(-50%, -50%)',
-//     },
-//   };
+// const activeClass = ()=>{
+//   console.log('im clicked wooo');
 
+//   const [menuActive, setMenuActive] = useState(false);
+//   const handleActive = () =>{
+//     setMenuActive(!menuActive)
+//   }
+// }
 
 const Navbar = () => {
-
-//     let subtitle;
-//   const [modalIsOpen, setIsOpen] = React.useState(false);
 
 const [navbarOpen, setNavbarOpen] = useState(false);
 
@@ -44,19 +27,14 @@ const [navbarOpen, setNavbarOpen] = useState(false);
       }
     return ( 
         
-               <div className='Header-Section'>
+          <div className='Header-Section'>
                 <div className='Nav-Logo'>
-                <img src={logo} className='Nuts-Logo' alt="" srcset=""width='160px' height='33px' />
-                  
-                  
-                   
-                        
-                    
+                  <img src={logo} className='Nuts-Logo' alt="" srcset=""width='160px' height='33px' />
                 </div>
                 <div className='Nav-Items'>
                     <nav>
                        
-                        <Link to=''>Home</Link>
+                        <Link to='' >Home</Link>
                         <Link to='about'>About</Link>
                         <Link to='affiliation'>Affiliations</Link>
                        
@@ -70,9 +48,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                     <div className='Menu-Icon-Container'>
                      
                       <MenuOutlined onClick={handleToggle} > {navbarOpen ? "" : ""} </MenuOutlined>
-                      
                      
-
                       <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
                        
                          <CloseCircleOutlined className='Close-Btn' onClick={closeMenu}/>

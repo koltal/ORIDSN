@@ -4,6 +4,7 @@ import president from "../images/president.jpeg";
 import Services from "./services";
 import News from "./news";
 import ReadMore from './read-more';
+import GetStarted from './get-started';
 
 
 const Home = () => {
@@ -119,6 +120,7 @@ const Home = () => {
       <Services/>
              
         <News/>    
+        {/* <GetStarted/> */}
         </div>
      );
 }

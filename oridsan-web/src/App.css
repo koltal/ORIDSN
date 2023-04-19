@@ -339,6 +339,16 @@ body{
   padding: 20px;
 }
 
+
+/* Get started css begins here  */
+.Get-Started-Container{
+  height: 500px;
+  background-color: #2E7159;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+
 /* News sections CSS Stars here  */
 .News-Container{
   margin-top: 200px;

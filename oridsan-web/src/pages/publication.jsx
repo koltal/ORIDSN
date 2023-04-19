@@ -1,4 +1,4 @@
-import opsearch from '../images/opsearch.png';
+import book from '../images/book.jpeg'
 import './About.css';
 
 const Publication = () => {
@@ -14,7 +14,7 @@ const Publication = () => {
                <div> <h1>Nigerian Journal of Operations Research (NIJOR)</h1></div>
                <div>
                 <h2>Overview</h2>
-                <p>Nigerian Journal of Operations Research (NIJOR)  is the official journal of the ORIDSAN. Therefore, it is committed to advancing and promoting the understanding, theories, methodologies and practices of Operations Research in Nigeria and worldwide.</p>
+                <p>Nigerian Journal of Operations Research (NIJOR)  is the official journal of the ORIDSAN. Therefore, it is committed to advancing and promoting the understanding, theories, methodologies and practices of Operations Research in Nigeria and worldwide.</p>
                 </div>
                 <div>
                 <h2>Aim and Scope</h2>
@@ -24,7 +24,7 @@ const Publication = () => {
                 </div>
             </div>
             <div>
-                <img src={opsearch} alt="publication" width='80%' height='500px' />
+                <img src={book} alt="publication" width='80%' height='500px' />
             </div>
         </div>
         </div>
