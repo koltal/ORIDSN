@@ -48,7 +48,7 @@ const Footer = () => {
                 <div>
                     <div><h3>Legal</h3></div>
                     <div>
-                        <p>Tems and conditions apply</p>
+                        <p>Terms and conditions apply</p>
                         
                         
                     </div>

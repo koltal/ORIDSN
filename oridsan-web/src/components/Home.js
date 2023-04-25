@@ -4,7 +4,7 @@ import president from "../images/president.jpeg";
 import Services from "./services";
 import News from "./news";
 import ReadMore from './read-more';
-import GetStarted from './get-started';
+import Conference from '../pages/conference';
 
 
 const Home = () => {
@@ -50,69 +50,8 @@ const Home = () => {
 
 
               {/* upcoming events and activities  */}
-      <div><h3 className="Upcoming-Events-Header">Upcoming Events & Activities</h3></div>
-      <div className="Events-Container">
-              {/* <div><h3 className="Upcoming-Events-Header">Upcoming Events & Activities</h3></div> */}
-          <div className="Events-Container-Outer">
-              <div className="Events-Container-Inner">
-
-                <div className="Event-Date-Section">
-                  <div className="Event-Date-Section-Inner">
-                    <div><h4>30</h4></div>
-                    <div><span>Sept</span></div>
-                  </div>
-                 
-                </div>
-                <div className="Events-Title-Section">
-                  <div className="Events-Title-Section-Inner">
-                    <p>The Importance of Mathematical Modelling in the field of Operations & Research, case Study of Mau Yola</p>
-                  </div>
-                  <div className="Events-Title-Section-Inner1">
-                   <div> <p ><AimOutlined /> American University of Nigeria</p></div>
-                   <div> <p className="Time"><ClockCircleOutlined /> 10:00AM</p></div>
-                  </div>
-                </div>
-
-              </div>
-
-              
-              
-
-              
-        </div>  
-
-
-        <div className="Events-Container-Outer">
-              <div className="Events-Container-Inner">
-
-                <div className="Event-Date-Section">
-                  <div className="Event-Date-Section-Inner">
-                    <div><h4>10</h4></div>
-                    <div><span>July</span></div>
-                  </div>
-                 
-                </div>
-                <div className="Events-Title-Section">
-                  <div className="Events-Title-Section-Inner">
-                    <p>IFORS 2023 23rd IFORS Triennial Conference Santiago, Chile, July 10 - 14, 2023</p>
-                  </div>
-                  <div className="Events-Title-Section-Inner1">
-                  <div> <p ><AimOutlined /> Santiago, Chile.</p></div>
-                   <div> <p className="Time"><ClockCircleOutlined /> 8:00AM</p></div>
-                  </div>
-                </div>
-
-              </div>
-
-              
-              
-
-              
-        </div>
-
-
-        
-      </div>
+      {/* <div><h3 className="Upcoming-Events-Header">Upcoming Events & Activities</h3></div> */}
+      <Conference/>
       <div className="View-All-Events-Link">
         <span className="All-events">View All Events & Activities</span>
       </div>
