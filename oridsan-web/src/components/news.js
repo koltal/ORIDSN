@@ -15,7 +15,7 @@ const News = () => {
     image:"https://static2.tripoto.com/media/filter/tst/img/735873/TripDocument/1537686560_1537686557954.jpg"
 },
 {title: 'ORIDSAN testing4',
-time: '12:39PM',
+time: '12:59PM',
 date: '12th, July 2023',
 image:"https://static2.tripoto.com/media/filter/tst/img/735873/TripDocument/1537686560_1537686557954.jpg"
 }

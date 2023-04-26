@@ -5,16 +5,60 @@ import Services from "./services";
 import News from "./news";
 import ReadMore from './read-more';
 import Conference from '../pages/conference';
+import MyCarouselContent from '../carousels';
+import Carousel from 'react-material-ui-carousel'
+import { useState, useEffect } from 'react';
 
 
 const Home = () => {
 
+  const [slide, setSlide] = useState([]);
+  const [isLoading, setLoading] = useState(true);
+
+  useEffect(()=>{
+    fetch('https://oridsan.fly.dev/api/v1/Sliders')
+    .then(res=>{
+      return res.json();
+    })
+    .then(data =>{
+      setLoading(false)
+     
+          setSlide(data.data);
+        console.log(data)
+      
+    })
+  }, []);
     
+  
     
     return ( 
         <div>
-    
-      <Slider/>
+         
+            {/* {slide && <MyCarouselContent
+            slide={slide}
+           
+          />
+            } */}
+          
+    <Carousel  autoPlay stopAutoPlayOnHover>
+                {
+                 !isLoading && (  
+                       
+                        slide.map((slides)=>{
+                          return(
+                            <MyCarouselContent key={slides.id}
+                                title={slides.title}
+                                description={slides.description}
+                               
+                                photo={slides.photo.secureUrl}
+                                
+                             />
+                        )})
+                  
+                )}
+                
+            </Carousel>
+      {/* <Slider/> */}
     
       <div className="President-Container">
         <div className="President-Container-Inner">
@@ -62,6 +106,8 @@ const Home = () => {
         {/* <GetStarted/> */}
         </div>
      );
+     
 }
+
  
 export default Home;

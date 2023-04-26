@@ -414,6 +414,7 @@ body{
 
   .Header-Section{
  position: static;
+ height: 60px;
  /* box-shadow: 0 0 9px 3px rgba(132, 131, 131, 0.2); */
 
   }

@@ -1,21 +1,30 @@
 import { ClockCircleOutlined, AimOutlined} from '@ant-design/icons';
 import './About.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import BackgroundDisplay from '../components/background-display';
 const Conference = () => {
 
-    const[isConference, setIsConference] = useState([{
-      title:'The Importance of Mathematical Modelling in the field of Operations & Research, case Study of Mau Yola',
-      venue:'American University of Nigeria',
-      time: '10:00PM',
-      date: '20 September'
-    },
-  {
-      title:'The Importance of Mathematical Modelling in the field of Operations & Research, case Study of Mau Yola',
-      venue:'Chile, Chicago',
-      time: '10:00AM',
-      date: '20 September'
-  }])
+    const[isConference, setIsConference] = useState([]);
+    const[isLoading, setIsLoading] = useState(true);
+    // const [error, setError] = useState(false);
+
+    useEffect(()=>{
+      fetch('https://oridsan.fly.dev/api/v1/events')
+      .then(res=>{
+        return res.json();
+      })
+      .then(data =>{
+        setIsLoading(false)
+       
+            setIsConference(data.data);
+          console.log(data)
+        
+      })
+      .catch(err=>(
+        console.log(err)));
+        // setIsLoading(false)
+       
+    }, []);
 
     return ( 
         <div>
@@ -26,9 +35,10 @@ const Conference = () => {
       <div><h3 className="Upcoming-Events-Header">Upcoming/Past Events & Conferences</h3></div>
       <div className="Events-Container">
               {/* <div><h3 className="Upcoming-Events-Header">Upcoming Events & Activities</h3></div> */}
-          
-          {isConference.map((conferences)=>(
-             <div className="Events-Container-Outer" key={conferences.time}>
+          {isLoading && <div>Loading.........</div>}
+          {/* {error && <div>{error}</div>} */}
+          { isConference && isConference.map((conferences)=>(
+             <div className="Events-Container-Outer" key={conferences._id}>
                <div className="Events-Container-Inner">
 
                 <div className="Event-Date-Section">
