@@ -69,6 +69,7 @@ body{
 .Header-Section{
   border-bottom: 1px solid #ddd;
   margin-bottom: 2px;
+  /* position: fixed; */
   /* padding-bottom: 20px; */
   /* background-color: rgb(255, 255, 255); */
   width: 100%;
@@ -140,8 +141,9 @@ body{
 
 /* presidential container css here */
 .President-Container{
-  background-color: whitesmoke;
+  background-color: #2E7159;
   width: 100%;
+  border: 1px solid #2E7159;
   /* padding: 20px;
   height: 500px; */
 }
@@ -149,11 +151,12 @@ body{
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
 }
 .President-Image-Holder{
-  background-color: white;
+  background-color: #2E7159;
   padding: 40px;
+  color: white;
  
 }
 .Desk-Of-President1{
@@ -164,7 +167,8 @@ body{
   height: 434px;
 }
 .President-Writeup-Holder{
-  background-color: white;
+  background-color: #2E7159;
+  color: white;
   padding: 20px;
 }
 
@@ -466,7 +470,8 @@ body{
     height: 200px;
   }
   .President-Container{
-    background-color: rgb(213, 168, 168);
+    /* background-color: rgb(213, 168, 168); */
+    width: 80;
     /* padding: 20px;
     height: 1300px; */
   }
@@ -547,9 +552,14 @@ body{
   }
   .Desk-Of-President1{
     opacity: 0.9;
+    color: #000604;
     text-align: center;
     font-size: small;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .President-Name{
+    color: black;
+    text-align: center;
   }
 
   .Services-Container{

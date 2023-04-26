@@ -2,20 +2,20 @@ import React from 'react'
 import styled from 'styled-components'
 import { Slide } from "react-awesome-reveal";
 const CarouselContainer=styled.div`
-height:90vh;
+height:80vh;
 min-width:100%;
 max-width: 100%;
 background-color:transparent;
 .color-code{
 position: absolute;
-top: 70px;
+top: 0px;
 right: 0px;
 left: 0px;
 bottom: 0px;
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
-background: linear-gradient(to right,rgba(64,0,0,0.1),rgba(64,0,0,0.3),rgba(64,0,0,0.5),rgba(64,0,0,0.7));
+background: linear-gradient(to bottom,rgba(64,0,12,0.1),rgba(2,0,12,0.1),rgba(64,12,0,0.1),rgba(0, 0, 0, 0.71));
 .latex{
     height: 65px;
     width: 100%;
@@ -53,6 +53,7 @@ object-fit: cover;
     margin-bottom: 50px;
     margin-left: 50px;
     width: 70%;
+    
     h4{
         color: white;
         font-size: 45px;
@@ -63,6 +64,7 @@ object-fit: cover;
     }
     p{
         color: white;
+        font-weight: bolder;
         font-size: 20px;
         text-align: justify;
         margin-right: 30px;
@@ -85,6 +87,7 @@ object-fit: cover;
     margin-bottom: 10px;
     h4{
         color: white;
+      
         font-size: 25px;
         span{
             font-weight: 100;
@@ -109,21 +112,15 @@ object-fit: cover;
 `;
 export default function MyCarouselContent({title, description, photo}) {
     return (
-        <CarouselContainer>
-       {/* {slide.map((slides)=>(
-       
-         <div className='car-write' key={slides.id}>
-        {photo?  <img  src={slides.photo} alt=''/>:null}
-         <Slide cascade={true} triggerOnce={true} delay={500}>
-         <h4><span>{slides.title}</span><br/>{slides.description}</h4>
-         <p>
-          
-          </p>
-         </Slide>
-         
-         
-         </div>
-       ))} */}
+        <CarouselContainer >
+             <div className='color-code'>
+            <div className='latex'>
+                <h2>Vision:</h2>
+                <p>Modibbo Adama University is Set to 
+                    comission the new College of Medical Science at the end of the session</p>
+            </div>
+        </div>
+      
         {photo?  <img  src={photo} alt=''/>:null}
        <div className='car-write'>
        <Slide cascade={true} triggerOnce={true} delay={500}>
@@ -133,7 +130,7 @@ export default function MyCarouselContent({title, description, photo}) {
         </p>
        </Slide>
        
-       
+     
        </div>
         </CarouselContainer>
     )

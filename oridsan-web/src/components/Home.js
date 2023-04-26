@@ -1,5 +1,4 @@
-import { ClockCircleOutlined, AimOutlined} from '@ant-design/icons';
-import Slider from "../carouselDisplay";
+import { Button, Divider, List, Skeleton } from '@mui/material';
 import president from "../images/president.jpeg";
 import Services from "./services";
 import News from "./news";
@@ -34,11 +33,15 @@ const Home = () => {
     return ( 
         <div>
          
-            {/* {slide && <MyCarouselContent
-            slide={slide}
-           
-          />
-            } */}
+           <div>
+             {
+                    isLoading && (
+                        <Skeleton animation="wave" style={{
+                            width: '100%',
+                            height: '70vh'
+                        }} variant="rectangular" />
+                    )
+            }
           
     <Carousel  autoPlay stopAutoPlayOnHover>
                 {
@@ -58,14 +61,19 @@ const Home = () => {
                 )}
                 
             </Carousel>
-      {/* <Slider/> */}
+            </div>
+     
     
       <div className="President-Container">
         <div className="President-Container-Inner">
             <div className="President-Image-Holder">
             <div className="Desk-Of-President1"><h2 >FROM THE PRESIDENT DESK</h2></div>
               <img className="President-Image" src={president}  alt=""/>
+              <div className='President-Name'>
+              <h3>Dr Umar Muhammad Modibbo <br></br>
+              <span>President</span> </h3><br/>
              
+            </div>
              </div>
          <div className="President-Writeup-Holder">
             <div className="Desk-Of-President"><h2 >FROM THE PRESIDENT DESK</h2></div>
@@ -82,11 +90,11 @@ const Home = () => {
                    Workshops, Webinars, etc.</ReadMore> </p>
            
             </div>
-            <div>
+            {/* <div>
               <h3>Dr Umar Muhammad Modibbo <br></br>
               <span>President</span> </h3><br/>
              
-            </div>
+            </div> */}
          </div>
         </div>
       </div>
