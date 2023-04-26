@@ -196,9 +196,9 @@ body{
 .Events-Container-Inner{
   display: grid;
   grid-template-columns: 1fr 3fr;
-  height: 210px;
-  width: 500px;
-  background-color: azure;
+  /* height: 210px; */
+  width:100%;
+  /* background-color: azure; */
   /* position: absolute; */
   border: 1px solid #ddd;
 }
@@ -209,8 +209,8 @@ body{
 .Event-Date-Section-Inner{
   padding: 10px;
   margin: 40px;
-  width: 99px;
-  height: 88px;
+  width: 75%;
+  /* height: 88px; */
   background-color: #2E7159;
   color: white;
   text-align: center;
@@ -261,12 +261,22 @@ body{
 
 
 /* Services What we do Css Begins here */
+.Services-Overall-Container{
+  /* background-color: rgb(222, 250, 249); */
+  background-color: #e9e6e6;
+  padding: 20px;
+}
 .Headings-Services{
   margin: 0 auto;
-  width: 20%;
+  width: 50%;
+  border: none;
+  border-bottom: 3px solid #2E7159;
+  border-radius: 6px;
+  border-bottom-style: dashed;
 }
 .Services-Container{
   margin: 0 auto;
+  margin-top: 20px;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
@@ -280,6 +290,7 @@ body{
 }
 .Services-Card-Container{
   display: grid;
+  background-color: white;
   grid-template-columns: 1fr 3fr;
   border: 1px solid #ddd;
   padding: 20px;
@@ -300,7 +311,7 @@ body{
   /* we are Everywhere in Nigeria Container 
   statistics css begins here*/
 .Statistics-Container{
-  background-color: whitesmoke;
+  /* background-color: honeydew; */
 /* background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%); */
 
 

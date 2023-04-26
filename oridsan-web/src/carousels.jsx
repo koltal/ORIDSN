@@ -114,11 +114,7 @@ export default function MyCarouselContent({title, description, photo}) {
     return (
         <CarouselContainer >
              <div className='color-code'>
-            <div className='latex'>
-                <h2>Vision:</h2>
-                <p>Modibbo Adama University is Set to 
-                    comission the new College of Medical Science at the end of the session</p>
-            </div>
+            
         </div>
       
         {photo?  <img  src={photo} alt=''/>:null}

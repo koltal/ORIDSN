@@ -8,10 +8,11 @@ import seminar from '../images/seminar.png';
 
 const Services = () => {
     return ( 
-        <div >
+        <>
+        <div className="Services-Overall-Container" >
             <div className="Headings-Services">
-             <div><h2 className="What-we-do">WHAT WE DO</h2></div>
-            <div><h4>We Help Researchers to Grow Exponentially</h4></div>
+             <div><h2 className="What-we-do">Services We Offered<br></br></h2></div>
+            {/* <div><h4>We Help Researchers to Grow Exponentially</h4></div> */}
          </div>
         <div className="Services-Container">
            
@@ -45,7 +46,7 @@ const Services = () => {
             </div>
             
         </div>
-
+        </div>
 
         {/* we are Everywhere in Nigeria Container */}
         <div className="Statistics-Container">
@@ -65,7 +66,7 @@ const Services = () => {
                 </div>
             </div>
         </div>
-        </div>
+        </>
      );
 }
  
