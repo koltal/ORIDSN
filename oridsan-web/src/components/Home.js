@@ -1,35 +1,17 @@
-import { Button, Divider, List, Skeleton } from '@mui/material';
-import president from "../images/president.jpeg";
+import {  Skeleton } from '@mui/material';
+import president from "../images/president1.png";
 import Services from "./services";
 import News from "./news";
 import ReadMore from './read-more';
 import Conference from '../pages/conference';
 import MyCarouselContent from '../carousels';
 import Carousel from 'react-material-ui-carousel'
-import { useState, useEffect } from 'react';
-
+// import { useState, useEffect } from 'react';
+import useFetch from '../Networks/useFetch';
 
 const Home = () => {
-
-  const [slide, setSlide] = useState([]);
-  const [isLoading, setLoading] = useState(true);
-
-  useEffect(()=>{
-    fetch('https://oridsan.fly.dev/api/v1/Sliders')
-    .then(res=>{
-      return res.json();
-    })
-    .then(data =>{
-      setLoading(false)
-     
-          setSlide(data.data);
-        console.log(data)
-      
-    })
-  }, []);
-    
+  const {data:slide, isLoading}= useFetch('https://oridsan.fly.dev/api/v1/Sliders');
   
-    
     return ( 
         <div>
          
