@@ -67,6 +67,9 @@
     display: inline;
     width: 100%;
     height: auto;
+    line-height: 30px;
+    text-align: justify;
+    font-family: '"Rubik", sans-serif';
     /* background-color: red; */
   }
     

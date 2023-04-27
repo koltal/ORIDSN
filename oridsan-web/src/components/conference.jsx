@@ -1,14 +1,14 @@
 import { ClockCircleOutlined, AimOutlined} from '@ant-design/icons';
-import './About.css';
+import '../pages/About.css';
 import useFetch from '../Networks/useFetch';
 
-const Conference = () => {
+const Conference = ({title=''}) => {
   const{data:isConference, isLoading} = useFetch('https://oridsan.fly.dev/api/v1/events');
    
     return ( 
         <div>
          
-      <div><h3 className="Upcoming-Events-Header">Upcoming/Past Events & Conferences</h3></div>
+      <div><h3 className="Upcoming-Events-Header">{title}</h3></div>
       <div className="Events-Container">
              
           {isLoading && <div>Loading.........</div>}

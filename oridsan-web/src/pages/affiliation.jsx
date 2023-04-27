@@ -1,14 +1,12 @@
 import {  Link } from 'react-router-dom';
 import ifors from '../images/ifors-logo.gif';
 import afros from '../images/afros.png';
+import BackgroundDisplay from '../components/background-display';
 
 const Affiliation = () => {
     return ( 
         <div>
-            <div className='Background-Display-Image-Container'>
-        {/* <img className='bg-img' src='https://www.cactusimages.co.uk/wp-content/uploads/2019/11/121119Oviso_0628.jpg' width='100%' height='300px' alt=''/> */}
-       <div className='Centered-Content'> <h1>Affiliations</h1></div>
-        </div>
+           <BackgroundDisplay title='Affiliations'/>
 
         <div className='Affiliation-Container'>
             <div>

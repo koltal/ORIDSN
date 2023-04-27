@@ -1,12 +1,10 @@
 import { PhoneOutlined,MessageOutlined, AimOutlined} from '@ant-design/icons';
 import './About.css';
+import BackgroundDisplay from '../components/background-display';
 const Contact = () => {
     return ( 
         <div>
-            <div className='Background-Display-Image-Container'>
-        {/* <img className='bg-img' src='https://www.cactusimages.co.uk/wp-content/uploads/2019/11/121119Oviso_0628.jpg' width='100%' height='300px' alt=''/> */}
-       <div className='Centered-Content'> <h1>Contact us</h1></div>
-        </div>
+            <BackgroundDisplay title='Contact'/>
         <div className="Contact-Us-Container">
             <div><center><h2>If You Have Any Query, Feel Free To Contact Us</h2></center></div>
         <center>

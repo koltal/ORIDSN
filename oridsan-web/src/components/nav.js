@@ -4,14 +4,6 @@ import React, { useState } from "react"
 import logo from '../images/logo.png';
 
 
-// const activeClass = ()=>{
-//   console.log('im clicked wooo');
-
-//   const [menuActive, setMenuActive] = useState(false);
-//   const handleActive = () =>{
-//     setMenuActive(!menuActive)
-//   }
-// }
 
 const Navbar = () => {
 
@@ -37,7 +29,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                         <Link to='' >Home</Link>
                         <Link to='about'>About</Link>
                         <Link to='affiliation'>Affiliations</Link>
-                       
+                        <Link to='chapters'>Chapters</Link>
                         <Link to='conference'>Conferences</Link>
                         <Link to='membership'>Membership</Link>
                         <Link to='publication'>Publications</Link>
@@ -58,7 +50,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                         onClick={closeMenu}>Home</Link>
                         <Link to='about' onClick={closeMenu}>About</Link>
                         <Link to='affiliation' onClick={closeMenu}>Affiliation</Link>
-                        <Link to='contact' onClick={closeMenu}>Chapters</Link>
+                        <Link to='chapters' onClick={closeMenu}>Chapters</Link>
                         <Link to='conference' onClick={closeMenu}>Conferences</Link>
                         <Link to='membership' onClick={closeMenu}>Membership</Link>
                         <Link to='publication' onClick={closeMenu}>Publications</Link>

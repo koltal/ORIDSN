@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-const ReadMore = ({children}) => {
-    const text = children;
+const ReadMore = ({textSlice}) => {
+    // const text = textSlice;
     const [isReadMore, setIsReadMore] = useState(true);
     const toggleReadMore = () => {
       setIsReadMore(!isReadMore);
     };
     return ( 
         <p className="text">
-      {isReadMore ? text.slice(0, 250) : text}
+      {isReadMore ? textSlice.slice(0, 250) : textSlice}
       <span onClick={toggleReadMore} className="read-or-hide">
-        {isReadMore ? "...read more" : " <<< show less"}
+        {isReadMore ? "...expand" : " <<< show less"}
       </span>
     </p>
      );
