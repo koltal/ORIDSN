@@ -16,6 +16,13 @@ const ChapterTable = styled.table`
         text-align: left;
         padding: 5px;
     }
+    
+    }
+    @media screen and (max-width: 850px){
+        ChapterTable{
+         width: 100%;
+         background-color: red;
+        }
 
 `
 
@@ -27,17 +34,17 @@ const Chapters = () => {
         <div>
             <BackgroundDisplay title='Chapters'/>
         <ChapterTable>
-        <thead>
+        <tr>
                 <th>Chapter Name</th>
                 <th>Address</th>
                 <th>Contact</th>
-            </thead>
+            </tr>
             {isChapter && isChapter.map((chapter)=>{
                 return(
                     <>
                     
             <tbody>
-                <tr>
+                <tr key={chapter._id}>
                     <td>{chapter.chapterName}</td>
                     <td>{chapter.address}</td>
                     <td>{chapter.contact}</td>

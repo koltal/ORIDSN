@@ -204,11 +204,11 @@ body{
 }
 .Event-Date-Section{
   border-right: 1px solid #ddd;
-  width: 75px;
+  width: 60%;
 }
 .Event-Date-Section-Inner{
   padding: 10px;
-  margin: 40px;
+  margin: 30px;
   width: 75%;
   /* height: 88px; */
   background-color: #2E7159;
@@ -414,12 +414,28 @@ body{
   grid-gap: 40px;
   padding-top: 50px;
 }
-.Footer-Container li {
+.Footer-Container li  {
   padding: 12px;
   list-style-type: none;
+  color: white;
   font-weight: lighter;
 }
 .Footer-Container li:hover{
+  font-weight: bolder;
+}
+.Footer-Links a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+.Footer-Links div{
+  padding: 10px;
+}
+.Footer-Links a:hover{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
   font-weight: bolder;
 }
 
@@ -527,7 +543,7 @@ body{
   .Event-Date-Section-Inner{
     padding: 5px;
     margin: 20px;
-    width: 69px;
+    width: 70%;
     /* height: 68px; */
     background-color: #2E7159;
     color: white;

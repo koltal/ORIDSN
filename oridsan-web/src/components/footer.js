@@ -21,13 +21,14 @@ const Footer = () => {
                         <div>
                             <h3>Quick Links</h3>
                         </div>
-                        <div>
-                             <li>Home</li>
-                             <li>About</li>
-                             <li>Affiliations</li>
+                        <div className='Footer-Links'>
+                            <div> <Link to='/'>Home</Link></div>
+                            <div> <Link to='/about'>About</Link></div>
+                             <div><Link to='/affiliation'>Affiliation</Link></div>
+                             {/* <li>Affiliations</li> */}
                              {/* <Link to='about'>About</Link><br></br>
                              <Link to='products'>Product</Link> */}
-                            <li>Contact</li>
+                            {/* <li>Contact</li> */}
                             
                         </div>
                     </div>
@@ -37,11 +38,15 @@ const Footer = () => {
                         <div>
                             <h3>Services</h3>
                         </div>
-                        <div>
-                            <li>News</li>
-                            <li>Publications</li>
-                            <li>Membership</li>
-                           
+                        <div className='Footer-Links'>
+                            <div> <Link to='/membership'>Membership</Link></div>
+                            <div> <Link to='/chapters'>Chapters</Link></div>
+                             <div><Link to='/conference'>Conferences</Link></div>
+                             {/* <li>Affiliations</li> */}
+                             {/* <Link to='about'>About</Link><br></br>
+                             <Link to='products'>Product</Link> */}
+                            {/* <li>Contact</li> */}
+                            
                         </div>
                     </div>
                 </div>

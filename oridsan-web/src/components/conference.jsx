@@ -59,7 +59,7 @@ const Conference = ({title=''}) => {
 
                 <div className="Event-Date-Section">
                   <div className="Event-Date-Section-Inner">
-                    <div><h4>{conferences.date.slice(0,2)}</h4></div>
+                    <div><p>{conferences.date.slice(0,2)}</p></div>
                     <div><span>{months(conferences.date.slice(5,7))}</span></div>
                   </div>
                 
