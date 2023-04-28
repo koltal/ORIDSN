@@ -477,7 +477,7 @@ body{
   .Menu-Icon-Container{
     float: right;
     opacity: 1;
-    padding-left: 90%;
+    padding-left: 85%;
     /* padding-right: 15px; */
     font-size: 23px;
   }
@@ -491,15 +491,6 @@ body{
  .President-Image{
   width: 374px;
   height: 334px;
-}
-.Services-Container{
-  margin: 0 auto;
-  margin-top: 20px;
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(2, 1fr);
-  /* background-color: blue; */
-  width: 90%;
 }
   
   .News-Card-Container{
@@ -552,9 +543,9 @@ body{
   
   }
   .Menu-Icon-Container{
-    float: right;
+    /* float: right; */
     opacity: 1;
-    padding-right: 15px;
+    /* padding-right: 15px; */
     font-size: 23px;
   }
   .Menu-Icon-Container Modal {
