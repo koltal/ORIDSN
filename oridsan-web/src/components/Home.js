@@ -2,11 +2,9 @@ import {  Skeleton } from '@mui/material';
 
 import Services from "./services";
 import News from "./news";
-import ReadMore from './read-more';
 import Conference from './conference';
 import MyCarouselContent from '../carousels';
 import Carousel from 'react-material-ui-carousel'
-// import { useState, useEffect } from 'react';
 import useFetch from '../Networks/useFetch';
 import PresidentDesk from './president';
 
@@ -39,7 +37,7 @@ const Home = () => {
                                 photo={slides.photo.secureUrl}
                                 
                              />
-                        )})
+                        )}).reverse()
                   
                 )}
                 

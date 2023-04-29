@@ -52,7 +52,7 @@ const News = () => {
                         <div style={{float: 'right', marginLeft:50}}><p><CalendarOutlined /> {news.updatedAt.slice(0,10)}</p></div>
                     </div>
                    </div>
-                    ))}
+                    )).reverse()}
                
             </div>
         </div>

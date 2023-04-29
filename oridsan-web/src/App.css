@@ -15,6 +15,7 @@
 }
 .Close-Btn{
   float: right;
+  margin-top: 15px;
   /* padding: 40px; */
   font-size: 30px;
   padding-right: 50px;
@@ -32,7 +33,7 @@
   /* color: black; */
   border-bottom: 1px solid #dddd;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   /* text-transform: uppercase; */
   /* font-weight: bold; */
 }
@@ -74,7 +75,7 @@ body{
   /* background-color: rgb(255, 255, 255); */
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(5,1fr);
 }
 .Nav-Logo{
   display: flex;
@@ -103,7 +104,7 @@ body{
 }
 .Nav-Items{
   display: grid;
-  grid-column: 2/4;
+  grid-column: 2/6;
   
   padding-top: 15px;
   float: right;
@@ -114,10 +115,10 @@ body{
 .Nav-Items nav a {
   padding: 20px;
   color: black;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   pointer-events: stroke;
-  font-size: small;
+  /* font-size: small; */
   
 }
 .Nav-Items nav a:hover{
@@ -477,7 +478,8 @@ body{
   .Menu-Icon-Container{
     float: right;
     opacity: 1;
-    padding-left: 85%;
+    color: green;
+    padding-left: 160%;
     /* padding-right: 15px; */
     font-size: 23px;
   }
@@ -506,6 +508,12 @@ body{
 /* phone view nav css */
 @media screen and (max-width: 850px){
 
+  .App{
+    /* margin: 0 auto;
+    width: 100%; */
+    /* background-color: red; */
+    padding: 0px;
+  }
   .Header-Section{
  position: static;
  height: 60px;
@@ -658,7 +666,7 @@ body{
     grid-gap: 10px;
     grid-template-columns: repeat(1, 1fr);
     /* background-color: blue; */
-    width: 90%;
+    width: 100%;
   }
   .Headings-Services{
     margin: 0 auto;
