@@ -4,7 +4,12 @@ import useFetch from '../Networks/useFetch';
 
 const Conference = ({title=''}) => {
   const{data:isConference, isLoading} = useFetch('https://oridsan.fly.dev/api/v1/events');
-   
+    
+  // function myslice(aSlice){
+  //   return`${aSlice.slice(0,2)}`;
+  // }
+  
+
     const months = (rawMonth) =>{
       console.log(rawMonth);
       if(rawMonth === '01'){
@@ -53,7 +58,7 @@ const Conference = ({title=''}) => {
              
           {isLoading && <div>Loading.........</div>}
           {/* {error && <div>{error}</div>} */}
-          { isConference && isConference.map((conferences)=>(
+          { isConference  && isConference.map((conferences)=>(
              <div className="Events-Container-Outer" key={conferences._id}>
                <div className="Events-Container-Inner">
 
@@ -75,9 +80,10 @@ const Conference = ({title=''}) => {
                 </div>
 
                 </div>
+                
               
             </div>
-          ))}
+          )).slice(0,1)}
 
         
       </div>

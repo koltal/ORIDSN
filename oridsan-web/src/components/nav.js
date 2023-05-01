@@ -54,7 +54,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                         <Link to='conference' onClick={closeMenu}>Conferences</Link>
                         <Link to='membership' onClick={closeMenu}>Membership</Link>
                         <Link to='publication' onClick={closeMenu}>Publications</Link>
-                        <Link to='contact' onClick={closeMenu}>News</Link>
+                        <Link to='news' onClick={closeMenu}>News</Link>
                         <Link to='contact' onClick={closeMenu}>Contact</Link>
                         <Link  to='https://operations-research-association-demo.vercel.app/'><button className='signup-btn'>Sign Up</button></Link>
 

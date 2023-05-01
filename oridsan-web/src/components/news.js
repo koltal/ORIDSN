@@ -1,9 +1,14 @@
 import { ClockCircleOutlined, CalendarOutlined} from '@ant-design/icons';
 import useFetch from '../Networks/useFetch';
+import { useNavigate, useParams } from 'react-router-dom';
 
-const News = () => {
-   const{data: isNews} = useFetch('https://oridsan.fly.dev/api/v1/events');
-    
+
+const News = ({title=''}) => {
+   const{data: isNews} = useFetch('https://oridsan.fly.dev/api/v1/news');
+   const navigate=useNavigate();
+   const {_id}=useParams();
+   
+   
    function formatDate(rawDate) {
     const currentDate = new Date();
     const diffInMs = currentDate - new Date(rawDate);
@@ -35,11 +40,14 @@ const News = () => {
     return ( 
         <div className="News-Container">
             <div>
-                <center><h1>News and Updates</h1></center>
+                <center><h1>{title}</h1></center>
             </div>
-            <div className="News-Card-Container">
+            {isNews && isNews.map((news)=>(
+            <div onClick={()=>{
+                        navigate(`/news/${news._id}`)
+                     }}  className="News-Card-Container">
                 
-                    {isNews && isNews.map((news)=>(
+                   
                       <div className="News-Card" key={news._id}>
                        <div className="News-Image" >
                        {/* <img src={news.photo.secureUrl} alt=''/> */}
@@ -52,9 +60,10 @@ const News = () => {
                         <div style={{float: 'right', marginLeft:50}}><p><CalendarOutlined /> {news.updatedAt.slice(0,10)}</p></div>
                     </div>
                    </div>
+                   </div>
                     )).reverse()}
                
-            </div>
+            
         </div>
      );
 }

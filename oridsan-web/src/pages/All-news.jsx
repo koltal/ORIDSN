@@ -1,7 +1,11 @@
 import News from "../components/news";
+import BackgroundDisplay from "../components/background-display";
 const AllNews = () => {
     return ( 
-        <News/>
+        <div>
+            <BackgroundDisplay title="News"/>
+            <News/>
+        </div>
      );
 }
  

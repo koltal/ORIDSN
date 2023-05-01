@@ -16,6 +16,7 @@ import Affiliation from './pages/affiliation';
 import Chapters from './pages/chapter';
 import AllConferences from './pages/allConferences';
 import AllNews from './pages/All-news';
+import DetailNews from './pages/Detail-news';
 // import Slider from './carouselDisplay';
 
 
@@ -40,6 +41,7 @@ function App() {
                 <Route path='/affiliation' element={<Affiliation/>}/>
                 <Route path='/chapters' element={<Chapters/>}/>
                 <Route path='/news' element={<AllNews/>}/>
+                <Route path='/news/:id' element={<DetailNews/>}/>
 
                 {/* <Route path='/products' element={<Products/>}/>
                 <Route path='/about' element={<AboutPage/>}/>

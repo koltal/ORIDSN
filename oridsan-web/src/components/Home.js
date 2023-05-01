@@ -11,6 +11,9 @@ import PresidentDesk from './president';
 const Home = () => {
   const {data:slide, isLoading}= useFetch('https://oridsan.fly.dev/api/v1/Sliders');
   
+  // function myslice(aSlice){
+  //   return`${aSlice.slice(0,2)}`;
+  // }
     return ( 
         <div>
          
@@ -47,14 +50,18 @@ const Home = () => {
 
               {/* upcoming events and activities  */}
       {/* <div><h3 className="Upcoming-Events-Header">Upcoming Events & Activities</h3></div> */}
-      <Conference title='Upcoming/Ongoing Events & Conferences'/>
+     { <Conference 
+     title='Upcoming/Ongoing Events & Conferences'
+     slice
+    />}
       <div className="View-All-Events-Link">
         <span className="All-events">View All Events & Activities</span>
       </div>
       
       <Services/>
              
-        <News/>    
+        <News
+        title='News & Updates'/>    
         {/* <GetStarted/> */}
         </div>
      );
