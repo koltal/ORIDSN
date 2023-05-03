@@ -15,7 +15,7 @@ const NationalTeam = () => {
                     pastPresident.current === false ?
                     <div className="National-Executive-Card" key={pastPresident._id}>
                   <div>
-                  {/* <img src="https://nacos.org.ng/img/jerome_SEC.jpg" alt=""/> */}
+                  <img src={pastPresident.photo.secureUrl} height='300px' width='90%' alt=""/>
                   </div>
                     <div className="Name-position-section">
                     <center><h3>{pastPresident.name}</h3>
