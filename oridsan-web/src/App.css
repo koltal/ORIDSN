@@ -270,16 +270,17 @@ body{
 /* Services What we do Css Begins here */
 .Services-Overall-Container{
   /* background-color: rgb(222, 250, 249); */
-  background-color: #e9e6e6;
+  /* background-color: #e9e6e6; */
+  background-color: #f5f8f7;
   padding: 20px;
 }
 .Headings-Services{
   margin: 0 auto;
   width: 50%;
   border: none;
-  border-bottom: 3px solid #2E7159;
-  border-radius: 6px;
-  border-bottom-style: dashed;
+  /* border-bottom: 3px solid #2E7159; */
+  /* border-radius: 6px;
+  border-bottom-style: dashed; */
 }
 .Services-Container{
   margin: 0 auto;
@@ -309,7 +310,8 @@ body{
   padding: 5px;
 }
 .What-we-do{
-  color: #2E7159;
+  /* color: #2E7159; */
+  /* color: white; */
   font-weight: bold;
   text-align: center;
 }

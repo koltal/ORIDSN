@@ -8,12 +8,12 @@ const Footer = () => {
         <div className="Overall-Footer-Container">
             <div className="Footer-Container">
                 <div>
-                    <div><h3>ORIDSAN NATIONAL</h3></div>
+                    <div><h3>ORIDSAN Nigeria</h3><h5> RC - 6952853 </h5></div>
                     <div>
-                        <p>ORIDSAN Nigeria</p>
+                        <p>OPERATIONS RESEARCH INSTITUTE FOR DECISION SCIENCES & ANALYTICS OF NIGERIA LTD/GTE</p>
                         <p>Address: No. 21A, Ifokanbale Community, Lamodi, OFFA. Kwara State Nigeria
                         </p>
-                        <p>Give us a call on <strong>+2348140409672</strong></p>
+                        <p>Give us a call on <strong>+234 706 - 730 - 4585</strong></p>
                     </div>
                 </div>
                 <div>
@@ -58,11 +58,11 @@ const Footer = () => {
                         
                     </div>
                     <div >
-                    <WhatsAppOutlined style={{padding: 10, fontSize: 25,}}/>
-                    <FacebookFilled style={{padding: 10, fontSize: 25,}}/>
-                    <InstagramOutlined style={{padding: 10, fontSize: 25,}}/>
-                    <TwitterSquareFilled style={{padding: 10, fontSize: 25,}}/>
-                    <GoogleOutlined style={{padding: 10, fontSize: 25,}}/>
+                    <WhatsAppOutlined style={{padding: 10, fontSize: 20,}}/>
+                    <FacebookFilled style={{padding: 10, fontSize: 20,}}/>
+                    <InstagramOutlined style={{padding: 10, fontSize: 20,}}/>
+                    <TwitterSquareFilled style={{padding: 10, fontSize: 20,}}/>
+                    <GoogleOutlined style={{padding: 10, fontSize: 20,}}/>
                     </div>
                 </div>
             </div>

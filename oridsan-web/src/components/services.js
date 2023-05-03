@@ -4,7 +4,7 @@ import locationIcon from "../images/Union.png";
 import chapterIcon from "../images/folder-active.png";
 import training from '../images/training.png';
 import award from '../images/award.png';
-import seminar from '../images/seminar.png';
+import seminar from '../images/seminar.jpeg';
 
 const Services = () => {
     return ( 
