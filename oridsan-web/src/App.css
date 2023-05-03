@@ -598,7 +598,10 @@ body{
   .President-Writeup-Holder p{
     font-family: 'Times New Roman', Times, serif;
   }
-
+.Events-Container-Outer{
+  margin: 0 auto;
+  width: 96%;
+}
   .Events-Container{
     /* background-color: rebeccapurple; */
     
@@ -626,14 +629,28 @@ body{
     border-radius: 5px;
   }
   .Events-Title-Section-Inner{
-    text-decoration: underline;
+   
     padding-top: 10px;
     padding-left: 0px;
+   font-weight: lighter;
+  }
+  .Events-Title-Section-Inner p{
+    font-weight: light;
+    font-size: 13px;
+    text-decoration: none;
   }
   .Events-Title-Section-Inner1{
-    display: flex;
+    display: grid;
     padding-top: 1px;
+    grid-template-columns: 2fr 1fr;
    
+  }
+  .Time{
+    padding: 5px;
+  }
+  .Events-Title-Section-Inner1 p{
+    font-size: 12px;
+    font-weight: 300;
   }
   .View-All-Events-Link{
     margin: 0 auto;
