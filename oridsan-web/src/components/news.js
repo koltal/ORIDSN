@@ -50,7 +50,7 @@ const News = ({title=''}) => {
                    
                       <div className="News-Card" key={news._id}>
                        <div className="News-Image" >
-                       {/* <img src={news.photo.secureUrl} alt=''/> */}
+                       <img src={news.photo.secureUrl} alt=''/>
                    </div> 
                    <div className="News-Title">
                         <p>{news.title}</p>

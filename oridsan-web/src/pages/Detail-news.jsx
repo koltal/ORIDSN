@@ -9,8 +9,10 @@ const DetailNews = () => {
     return ( 
         <div >{singleNews.map((news)=>(
             <div key={news._id}>
-                 <p>{news._id}</p>
-                <p>{news.title}</p>
+                <h4>{news.title}</h4>
+                <p>{}</p>
+                  <img src={news.photo.secureUrl} alt=''/>
+                
                 <p>{news.description}</p>
                 <p>{news.time}</p>
             </div>

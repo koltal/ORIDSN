@@ -83,7 +83,7 @@ const Conference = ({title=''}) => {
                 
               
             </div>
-          )).slice(0,1)}
+          )).reverse().slice(0)}
 
         
       </div>

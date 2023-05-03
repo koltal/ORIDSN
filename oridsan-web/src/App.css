@@ -241,7 +241,8 @@ body{
 }
 .Events-Title-Section-Inner1{
   display: flex;
-  padding-top: 30px;
+  padding-top: 20px;
+  font-size: 14px;
  
 }
 .Events-Title-Section-Inner1 p{
