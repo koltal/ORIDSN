@@ -627,8 +627,8 @@ body{
   }
   .Events-Title-Section-Inner{
     text-decoration: underline;
-    padding-top: 20px;
-    padding-left: 25px;
+    padding-top: 10px;
+    padding-left: 0px;
   }
   .Events-Title-Section-Inner1{
     display: flex;
