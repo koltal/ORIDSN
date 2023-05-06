@@ -49,7 +49,7 @@ const Services = () => {
         </div>
 
         {/* we are Everywhere in Nigeria Container */}
-        <div className="Statistics-Container">
+        <div className="Statistics-Container" >
             <div><center><h2>WE ARE EVERYWHERE IN NIGERIA</h2></center></div>
             <div className="Stastics-Count-section">
                 <div className="Stat-Members">
