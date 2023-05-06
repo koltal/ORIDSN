@@ -11,7 +11,7 @@ const DetailNews = () => {
             <div key={news._id}>
                 <h4>{news.title}</h4>
                 <p>{}</p>
-                  <img src={news.photo.secureUrl} alt=''/>
+                  <img src={news.photo.secureUrl} alt='' width='50%'/>
                 
                 <p>{news.description}</p>
                 <p>{news.time}</p>
