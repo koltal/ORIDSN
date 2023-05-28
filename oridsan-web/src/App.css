@@ -760,6 +760,20 @@ body{
     width: 100%;
     height: 200px;
   }
+  .Detail-News-Container{
+    margin: 0 auto;
+    width: 100%;
+  }
+  .News-Title{
+    color: #2E7159;
+    font-size: 20px;
+    padding-top: 20px;
+    padding: 10px;
+  }
+  .News-description{
+    padding: 10px;
+    text-align: justify;
+  }
   .Time-Date-Section{
    display: inline-block;
    background-color: #2E7159;
