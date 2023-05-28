@@ -1,5 +1,5 @@
 import {  Skeleton } from '@mui/material';
-
+import { Link } from 'react-router-dom';
 import Services from "./services";
 import News from "./news";
 import Conference from './conference';
@@ -59,10 +59,13 @@ const Home = () => {
       </div>
       
       <Services/>
-             
-        <News
-        title='News & Updates'/>    
+          <div>
+           <center> <h2>News & Updates</h2></center></div>   
+        <News/>    
         {/* <GetStarted/> */}
+        <div className="View-All-Events-Link">
+        <Link to='/news' className="All-events">View All News & Updates</Link>
+      </div>
         </div>
      );
      

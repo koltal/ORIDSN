@@ -13,7 +13,7 @@ const News = ({title=''}) => {
 
     return ( 
         <div className="News-Container">
-          <h1>{title}</h1>  
+          {/* <h1>{title}</h1>   */}
                
            
             {isNews && isNews.map((news)=>(
@@ -26,7 +26,7 @@ const News = ({title=''}) => {
                        <div className="News-Image" >
                        <img src={news.photo.secureUrl} alt=''/>
                    </div> 
-                   <div className="News-Title">
+                   <div className="News-Title-Desc">
                         <p>{news.title}</p>
                     </div>
                     <div style={{display: 'flex'}}>
@@ -35,7 +35,7 @@ const News = ({title=''}) => {
                     </div>
                    </div>
                    </div>
-                    )).reverse()}
+                    )).reverse().slice(0,3)}
                
             
         </div>

@@ -21,7 +21,7 @@ const DetailNews = () => {
         
             <div className='News-Header'>
            
-            <div><h2 className='News-Title'>{singleNews.title}</h2><br></br>
+            <div><h2 className='News-Title-Desc'>{singleNews.title}</h2><br></br>
             <span className='News-Date'>{singleNews.time} </span></div>
             <img style={{height:'70vh'}} src={''} alt="Newsimage" srcset="" width='100%'  />
             <div className='News-Content'>
