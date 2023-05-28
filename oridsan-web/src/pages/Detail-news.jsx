@@ -1,23 +1,44 @@
-import { useState } from "react";
 import useFetch from "../Networks/useFetch";
-import { useNavigate, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
+import { ClockCircleOutlined, CalendarOutlined} from '@ant-design/icons';
+import { formatDate } from "../components/Date-Converter";
 
 const DetailNews = () => {
 
-    const{data: singleNews} = useFetch('https://oridsan.fly.dev/api/v1/news');
-//    const navigate=useNavigate();
+    const {id} = useParams();
+    const{data: singleNews, isLoading} = useFetch(`https://oridsan.fly.dev/api/v1/news/${id}`);
+
+
     return ( 
-        <div >{singleNews.map((news)=>(
-            <div key={news._id}>
-                <h4>{news.title}</h4>
-                <p>{}</p>
-                  <img src={news.photo.secureUrl} alt='' width='50%'/>
-                
-                <p>{news.description}</p>
-                <p>{news.time}</p>
+        
+        <div className="Detail-News-Container">
+        {isLoading && <div>Loading news...</div>}
+        
+        {
+       singleNews  &&
+        (
+           
+        
+            <div className='News-Header'>
+           
+            <div><h2 className='News-Title'>{singleNews.title}</h2><br></br>
+            <span className='News-Date'>{singleNews.time} </span></div>
+            <img style={{height:'70vh'}} src={''} alt="Newsimage" srcset="" width='100%'  />
+            <div className='News-Content'>
+                <p className="News-description">{singleNews.description}</p>
+               
             </div>
-        ))
-             }</div>
+            <div style={{display: 'flex'}}>
+                        <div><p><ClockCircleOutlined/> {formatDate(singleNews.createdAt)}</p></div>
+                        <div style={{float: 'right', marginLeft:50}}><p><CalendarOutlined /> {singleNews.updatedAt}</p></div>
+            </div>
+        </div>
+       
+       
+        )
+        }
+         { console.log()}
+        </div>
      );
 }
  
