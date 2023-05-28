@@ -3,7 +3,7 @@ import BackgroundDisplay from "../components/background-display";
 const AllNews = () => {
     return ( 
         <div>
-            <BackgroundDisplay title="News"/>
+            <BackgroundDisplay title="News & Updates"/>
             <News/>
         </div>
      );

@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 import BackgroundDisplay from "../components/background-display";
 import useFetch from '../Networks/useFetch';
+import { Endpoint } from '../components/endpoint';
+
 
 const ChapterTable = styled.table`
     width: 80%;
@@ -27,7 +29,7 @@ const ChapterTable = styled.table`
 `
 
 const Chapters = () => {
-    const{data: isChapter, isLoading} = useFetch('https://oridsan.fly.dev/api/v1/admin/chapters');
+    const{data: isChapter, isLoading} = useFetch(`${Endpoint}/admin/chapters`);
     return ( 
        
 

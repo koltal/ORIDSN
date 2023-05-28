@@ -2,9 +2,10 @@ import { ClockCircleOutlined, CalendarOutlined} from '@ant-design/icons';
 import useFetch from '../Networks/useFetch';
 import { useNavigate, useParams } from 'react-router-dom';
 import { formatDate } from './Date-Converter';
+import { Endpoint } from './endpoint';
 
 const News = ({title=''}) => {
-   const{data: isNews} = useFetch('https://oridsan.fly.dev/api/v1/news');
+   const{data: isNews} = useFetch(`${Endpoint}/news`);
    const navigate=useNavigate();
   
    

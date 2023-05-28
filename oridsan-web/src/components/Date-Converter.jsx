@@ -14,7 +14,8 @@ export  function formatDate(rawDate) {
   
     const hours = Math.floor(diffInMs / (1000 * 60 * 60));
     if (hours < 24) {
-      return `${hours} hours ago`;
+     return hours === 1 ?  `an hr ago ` : `${hours} hrs ago`;
+     
     }
   
     const days = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
@@ -23,9 +24,9 @@ export  function formatDate(rawDate) {
     }
   
     const weeks = Math.floor(diffInMs / (1000 * 60 * 60 * 24 * 7));
-    // weeks === 1 ? `${weeks}week ago` : `${weeks} weeks ago`;
+   
     if(weeks === 1){
-    return `${weeks} week ago`;
+    return weeks === 1 ? `${weeks}week ago` : `${weeks} weeks ago`;
     }
-    return `${weeks} weeks ago`;
+    
   }
